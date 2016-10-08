@@ -28,12 +28,14 @@ def Welcome():
 def AnalyzeRepo():
     repoURL = request.form['repoUrl']
     categoriesPerFile = analyzeFromUrl(repoURL)
-    categoriesPerFile["repo_base_url"] = repoURL
-    return jsonify(categoriesPerFile)
+    analysis = {"repoUrl": repoURL, "commit_categories": categoriesPerFile}
+    return render_template('breakdown.html', findings = analysis)
+
+    # return jsonify(categoriesPerFile)
 
 def analyzeFromUrl(repo_url):
-    gh_username = os.getenv('SHERLOCK_GITHUB_USERNAME', 'username')
-    gh_password = os.getenv('SHERLOCK_GITHUB_PASSWORD', 'password')
+    gh_username = os.getenv('SHERLOCK_GITHUB_USERNAME', 'Chunkzer')
+    gh_password = os.getenv('SHERLOCK_GITHUB_PASSWORD', 'fhd4password')
     g = Github(gh_username, gh_password)
     github_url = 'github.com/'
     gh_url_index = repo_url.find(github_url)

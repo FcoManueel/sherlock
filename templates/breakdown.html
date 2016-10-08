@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Sherlock</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/stylesheets/app.css">
+  </head>
+
+  <body>
+  <div class="overlay valign-wrapper">
+    <div class="container center-align text-white">
+
+      <h1>Sherlock</h1>
+      <h5>These are my findings!</h5>
+      <ul class="findings">
+        {% for file in findings.commit_categories %}
+        <li> <h2> FILE:{{ file }} </h2>
+        <ul>
+          <li>There are {{ findings.commit_categories[file][0] }} Bugfixes associated with this file.</li>
+          <li>There are {{ findings.commit_categories[file][1] }} Refactors associated with this file.</li>
+          <li>There are {{ findings.commit_categories[file][2] }} Feature additions associated with this file.</li>
+        </ul>
+        {% endfor %}
+      </ul>
+      </div>
+    </div>
+    {#  {% block body %}{% endblock %}#}
+  </body>
+</html>
