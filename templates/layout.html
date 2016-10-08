@@ -20,17 +20,25 @@
 
       <h1>Sherlock</h1>
       <h5>Gain insights from your code</h5>
-      <div class="row">
-        <div class="col s1"></div>
-        <div class="input-field col s10">
-          <input id="repo_url" type="text" class="validate">
-          <label for="repo_url">GitHub repo URL</label>
+      <form class="row center-align" role="form" method="post" action="{{ url_for('AnalyzeRepo') }}">
+        <div class="input-field col s8 offset-s2">
+          <input id="repo_url" type="text" name="repoUrl">
+          <label for="repo_url" class="width-full">GitHub repo URL</label>
+          <input id="submit_url" type="submit" value="Analyze" class="btn">
         </div>
-        <div class="col s1"></div>
+        <div class="col s2"></div>
+      </form>
       </div>
     </div>
 {#        {% block body %}{% endblock %}#}
   </div>
   </body>
-
+  <script>
+    document.getElementById("repo_url").addEventListener("keyup", function(event) {
+      event.preventDefault();
+      if (event.keyCode == 13) {
+        document.getElementById("submit_url").click();
+      }
+    });
+  </script>
 </html>

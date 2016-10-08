@@ -5,6 +5,7 @@ h1 {
 
 h1,h2,h3,h4,h5 {
   font-family: 'Cormorant Garamond', serif;
+  text-shadow: 2px 2px #555;
 }
 
 .newappIcon {
@@ -42,6 +43,10 @@ html {
   color: #ddd;
 }
 
+.width-full {
+  width: 100%;
+}
+
 input[type=text]:focus:not([readonly]) {
     border-bottom: 1px solid #988218;
     box-shadow: 0 1px 0 0 #988218;
@@ -49,4 +54,26 @@ input[type=text]:focus:not([readonly]) {
 
 input[type=text]:focus:not([readonly])+label {
     color: #988218;
+}
+
+/*button*/
+input {
+  border: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+input[type="submit"] {
+  border-radius: .125rem;
+}
+input[type="submit"] {
+  background-color: #988218;
+  color: #ccc;
+  margin-left: 8px;
+  margin-left: .5rem;
+  line-height: 1;
+}
+input[type="submit"]:hover {
+  background-color: #987c05;
 }
