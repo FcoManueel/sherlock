@@ -1,26 +1,37 @@
 {% extends "layout.html" %}
 {% block title %}Analysis Results for {{ repo_url }} {% endblock %}
 {% block content %}
+  <div class="container center-align text-white">
   <h1>Sherlock</h1>
-      <h5>These are my findings!</h5>
-      <ul class="findings">
-        {% for file, categories in analysis.commit_categories.iteritems() %}
-          {% if categories|sum - categories[0] %}
-          <li> <h2> FILE:{{ file }} </h2>
-          <ul>
-            Out of a total of {{ categories|sum }} commits I identified:
-            {% if categories[3] %}
-              <li>{{ categories[3] }} Bugfixes</li>
-            {% endif %}
-            {% if categories[2] %}
-              <li>{{ categories[2] }} Refactors</li>
-            {% endif %}
-            {% if categories[1] %}
-              <li>{{ categories[1] }} Feature</li>
-          {% endif %}
-          </ul>
-          {% endif %}
-        {% endfor %}
-      </ul>
+  <div class="overlay-solid results">
+    <h5>These are my findings!</h5>
+    <div class="container center-align">
+      {% for pair in analysis.commit_categories %}
+        {% if pair[1]|sum - pair[1][0] %}
+          <div class="row valign-wrapper grey darken-3">
+            <div class="col s6">
+              <i class="fa fa-file" aria-hidden="true"></i>
+              <span class="s6">{{ pair[0] }}</span>
+            </div>
+            <div class="col s6">
+              <p>Out of a total of {{ pair[1]|sum }} commits I identified:</p>
+              <ul>
+                {% if pair[1][3] %}
+                  <li class="red">{{ pair[1][3] }} Bugfixes</li>
+                {% endif %}
+                {% if pair[1][2] %}
+                  <li class="yellow">{{ pair[1][2] }} Refactors</li>
+                {% endif %}
+                {% if pair[1][1] %}
+                  <li class="green">{{ pair[1][1] }} New Features</li>
+              {% endif %}
+              </ul>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  </div>
 {% endblock %}
 {% block scripts %}{% endblock %}

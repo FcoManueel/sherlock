@@ -46,7 +46,12 @@ def AnalyzeRepo():
 def analyzeFromUrl(repo_url):
     repo = getRepo(repo_url)
     categories_per_file = getCategoriesDict(repo)
-    analysis = {"repo_url": repo_url, "commit_categories": categories_per_file}
+    file_list = [(filename, categories) for filename, categories in categories_per_file.iteritems()]
+    file_list = sorted(
+        file_list,
+        key=lambda pair: -pair[1][3]*2 - pair[1][2]*1
+    )
+    analysis = {"repo_url": repo_url, "commit_categories": file_list}
     return analysis
 
 
@@ -64,12 +69,15 @@ def getCategoriesDict(repo):
     categories_per_file = {}
     root_tree = repo.get_git_tree(sha="master", recursive=True).tree
 
-    remaining_files = 5 # temporary flag to avoid github ratelimit
+    remaining_files = 100 # temporary flag to avoid github ratelimit
     for gh_file in root_tree:
         if not remaining_files:
             break
-        categories_per_file[gh_file.path] = [0, 0, 0, 0]  # init commit counter
-        remaining_files -= 1
+        if (gh_file.type == "blob") and \
+            (gh_file.path.lower().find('.gitignore') == -1) and \
+            (gh_file.path.lower().find('readme.md') == -1):
+            categories_per_file[gh_file.path] = [0, 0, 0, 0]  # init commit counter
+            remaining_files -= 1
     for file_path in categories_per_file:
         commits = repo.get_commits(path=file_path)
         categories_per_file[file_path] = getCategoryCount(commits)
@@ -87,13 +95,13 @@ def getCategoryCount(commits):
 
 
 # getCommitCategory returns an integer representing one of the following categories:
-# 0: unknown        # 1: new_feature     # 2: refactor       # 3: fix
+# 0: unknown        # 1: new_feature     # 2: refactor       # 3: fixed
 def getCommitCategory(commit_message):
     commit_categories = {
         "Unknown": 0,
         "New Feature": 1,
         "Refactor": 2,
-        "Fix": 3,
+        "Fixed": 3,
     }
     words = getWordList(commit_message)
     commit_category_string = classifier.classify(words)
@@ -106,7 +114,7 @@ def getWordList(commit_message):
 
 port = os.getenv('PORT', '5000')
 if __name__ == "__main__":
-    gh_username = os.getenv('SHERLOCK_GITHUB_USERNAME', 'username')
-    gh_password = os.getenv('SHERLOCK_GITHUB_PASSWORD', 'password')
+    gh_username = os.getenv('SHERLOCK_GITHUB_USERNAME', 'chunkzer')
+    gh_password = os.getenv('SHERLOCK_GITHUB_PASSWORD', 'fhd4password')
     github = Github(gh_username, gh_password)
     app.run(host='0.0.0.0', port=int(port), debug=True)
