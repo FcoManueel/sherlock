@@ -16,7 +16,7 @@ import os
 from flask import Flask, jsonify, request, render_template
 from github import Github
 from random import randint
-from IPython import embed
+# from IPython import embed
 
 app = Flask(__name__)
 
