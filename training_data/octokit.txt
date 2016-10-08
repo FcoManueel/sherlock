@@ -1,4 +1,3 @@
-https://github.com/i-miss-you/octokit.objc
 Merge pull request #267 from leichunfeng/search-repositories -=- u
 Change parameter asc to ascending. -=- r
 Change parameter sort -> orderBy, order -> asc. -=- r

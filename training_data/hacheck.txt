@@ -1,4 +1,3 @@
-https://github.com/alistreet/hacheck
 Merge pull request #29 from uber/version -=- u
 bump version -=- u
 Merge pull request #28 from uber/redis_sentinel_info -=- u
