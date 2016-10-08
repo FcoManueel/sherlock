@@ -1,0 +1,52 @@
+h1 {
+	/*font-weight: bold;*/
+	font-size: 5.3em;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+html {
+  background: url(../images/bg.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.text-white {
+  color: #ddd;
+}
+
+input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #988218;
+    box-shadow: 0 1px 0 0 #988218;
+}
+
+input[type=text]:focus:not([readonly])+label {
+    color: #988218;
+}

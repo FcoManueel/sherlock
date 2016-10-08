@@ -13,13 +13,13 @@
 # limitations under the License.
 
 import os
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def Welcome():
-    return app.send_static_file('index.html')
+    return render_template('layout.html')
 
 @app.route('/myapp')
 def WelcomeToMyapp():
@@ -42,4 +42,4 @@ def SayHello(name):
 
 port = os.getenv('PORT', '5000')
 if __name__ == "__main__":
-	app.run(host='0.0.0.0', port=int(port))
+	app.run(host='0.0.0.0', port=int(port), debug=True)
