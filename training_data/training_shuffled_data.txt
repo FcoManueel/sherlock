@@ -1,0 +1,1000 @@
+modified:   pipeline-app/app/images/trello2.png , Unknown
+Update OCTClient+Watching.h , New Feature
+Docker-compose environment overriding , New Feature
+Fix the indentation - step1. , Refactor
+Add some missing properties to OCTEntity. , Fixed
+Return to the PUT API with extra fields , Unknown
+Update README.md , New Feature
+database password , Unknown
+Added constants to candidate status model. Dropped user_test LT update interactor. , New Feature
+Update README.md , New Feature
+style , New Feature
+Smaller margins in candidate interview details box , Fixed
+Latest Index , Unknown
+Add LT related comments to Trello integration , New Feature
+Czech stortFormat localization strings , New Feature
+change requirements to allow using newer tornado , New Feature
+Merge pull request #10 from ixnixnixn/master , New Feature
+Merge pull request #53 from mrtj/master , Unknown
+Update OctoKit.h , New Feature
+Removed mysql volume binding , Refactor
+Update README.md , New Feature
+Updated podspec , New Feature
+Watering , Unknown
+Renamed column in interviews from cultura -> cultural , Refactor
+- Added some time ago tests , New Feature
+increased hacheck version , Unknown
+s/spaces/tabs , Unknown
+Merge index... , Unknown
+- Updated pod spec to 1.1.0 , New Feature
+Leave out the return type. , Refactor
+- Fixed some formatting problems in example app , Fixed
+RecruiterSerializer takes care of providing Recruiters and Contacted By information , New Feature
+Fix bug. , Fixed
+Merge pull request #45 from rocxteady/master , Unknown
+created the watch:lightBuild grunt task , New Feature
+Refactored requestservice.js , Refactor
+Change OCTTreeEntry to use NS_ENUM , Fixed
+Redis support for hacheck * This code was written by James Brown (See PR #9) * hacheck/checker.py was updated from jbrown's PR. , New Feature
+- Continued weeding out double , Unknown
+Assigning another process ocurrs immediatly after you click accept / assign lt if there is trouble you are notified after the server responds. , Refactor
+Trello card creation. Inserting all relevant candidate data. , New Feature
+Change OCTMemberEvent to use NS_ENUM , Fixed
+Fix message on Trello update when recruiter change , Fixed
+English Interview again displays Decision select form , New Feature
+Merge pull request #42 from Nearsoft/migrationQueryBugFixes , Unknown
+Merge pull request #40 from Nearsoft/DockerOneLiner , Unknown
+fix tests , Fixed
+++AFNetworking , Unknown
+Removed logs and bindings , Unknown
+LOLOK , Unknown
+- Fixed bad resource reference , Fixed
+- Added what hopes to be valid travis file , New Feature
+- Fixed typo in shift later method name , Fixed
+1st attempt at dockerizing App , New Feature
+make setup.py parse requirements.txt using pip.req , New Feature
+add an endpoint which returns the number of accesses since last startup by service by ip , New Feature
+Removed buncha useless files , Unknown
+Merge pull request #202 from octokit/jspahrsummers-patch-1 , Unknown
+Updating a trello card with new information. , New Feature
+Use relative paths so we don't lose the Enterprise API prefix. , Refactor
+Merge pull request #82 from michal-olszewski/patch-1 , Unknown
+add a test for /status/count endpoint , New Feature
+User Mails not sent on development. , Fixed
+Bump version to v0.8.0 , Unknown
+Add new class `OCTClient+Issues`. , New Feature
+Merge pull request #43 from Nearsoft/DockerOneLiner , Unknown
+Merge pull request #214 from skylar/osx-headers-public , Unknown
+add support for python 3 , New Feature
+Add basque translation , New Feature
+minor fix to conform to GH Style Guide , Fixed
+Add search repositories method. , New Feature
+Board id , Unknown
+Added support for Redis Sentinel Fixed checker.py to support Tornado v3 and v4 Bump version to 0.10.0 , New Feature
+some basic unit tests , New Feature
+adding credits , New Feature
+Watering from master , Unknown
+Added verification that payload was not tampered with. , New Feature
+- Moved some returns to NSInteger from double , Unknown
+Merge pull request #2 from hlfcoding/patch-1 , Unknown
+Merge branch 'master' into xcode6 , Unknown
+Update README.md , New Feature
+- Fixed broken add/subtract methods , Fixed
+- Moved testing classes out of example project and into testing project , Refactor
+Merge pull request #23 from Nearsoft/migrationRefactor , Unknown
+Update README.md , New Feature
+WIP migrate to Quick spec format , New Feature
+Simpler docker setup , New Feature
+add an end-to-end integration test type thing , New Feature
+Dockerized app runs as expected. Updated ReadME instructions still a long way to go to make installation and development as frictionless as we can. , New Feature
+Perfect `OCTRepositorySpec.m`. , Unknown
+Update ROADMAP.MD , Unknown
+Interviewer Home view in working order. , Fixed
+Refactoring logic test.js added start_test and end_test endpoints , Refactor
+Changed CandidateRoles to CandidateRole to match model. , Unknown
+ - Implemented chain and collection equality checks , New Feature
+Opt-in to moondragon. , New Feature
+Merge pull request #190 from octokit/xcode6 , Unknown
+Straggler from last commit , Unknown
+Update README.md , New Feature
+Disabled some roles with MigQuery and seeded new QA role. , Fixed
+- Unified locales in formatters - Added tests for formatters , Refactor
+Allow passwords to be reassigned from candidate details view , New Feature
+added Hindi & Gujarati localization strings. , New Feature
+Update README.md , Unknown
+User referrer column added , New Feature
+Made the headers public , Fixed
+Redirect AFNetworking to GitHub fork , Unknown
+Added admin login view. , New Feature
+Removed binding.prys that snuck in , Unknown
+Import Nimble and Quick in test targets , New Feature
+Fix code style Change strong to copy. , Fixed
+Tech & Cult score hidden if english interview , New Feature
+clean up a little bit , Refactor
+Changed == to === and parseint the localstorage get result. , Refactor
+Merge pull request #64 from Nearsoft/remove-comments , Unknown
+Change OCTClient+Git to use NS_ENUM , Fixed
+Merge pull request #38 from Nearsoft/skillHandler , Unknown
+- Updated pod spec , New Feature
+Use a Cartfile.private loosen version constraints , Unknown
+++AFNetworking , Unknown
+Candidate Results Serializer , New Feature
+Interview form front. Update Interview Interactor changes. git add --all , Refactor
+Candidates whose email is already in the system are not added. , New Feature
+Removing conflict marker from app/logic.css , Unknown
+Trellify on every action. Trellify non-existing users. Trellify archived cards , New Feature
+WIP interview easy access , New Feature
+Merge pull request #33 from Nearsoft/InterviewRetry , Unknown
+Merge pull request #25 from Nearsoft/docker_rspec , Unknown
+don't bother including tests... , Unknown
+Add enabled field to candidate_source and update seed.rb to populate field. , New Feature
+Fixed bug where interviews where never graded as complete , Fixed
+Only delete authorization if its token is gone , Fixed
+Merge pull request #250 from leichunfeng/octclient-issues , Unknown
+baseline , Unknown
+Switch to POST /authorizations for sign in , Refactor
+Added different credentials depending on environment , New Feature
+status_change interactor modifies still working on the integration test , New Feature
+Separated Scree/Profile and Pair/Task into individual interviews. Added automatic status changes once all interview results are in. , Refactor
+Update README.md , New Feature
+Update NSDate+DateTools.m , New Feature
+Copy more dependencies into iOS test target , New Feature
+Update README.md , New Feature
+DateService and modal template to assign interviews , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Mails being sent based on environment , New Feature
+fix python3.3 python3.4 and tornado 4.x support , Fixed
+Use Carthage for managing submodules , New Feature
+integrate localized NSDate+TimeAgo methods , New Feature
+LT recruiters email includes the candidates key skills. , New Feature
+Failing test for deleting existing authorizations , Fixed
+Merge remote-tracking branch 'octokit/master' , Unknown
+add status_all command and associated tests , New Feature
+bump to 0.6.1 , Unknown
+Dockerfile modified for deployment , Refactor
+Modify the type of `milestone` parameter from NSNumber to NSUInteger. , Fixed
+A candidate that has failed an interview can now have it reassigned by clicking on the FAILED X INTERVIEW button , New Feature
+Merge branch 'lt-auto-assign' of https://github.com/nearsoft/pipeline into rc1.1.0 , Unknown
+Merge pull request #263 from leichunfeng/octclient-activity-fix-bug , Unknown
+fix tests , Fixed
+unit tests frontend fixed , New Feature
+- Added default calendar method so one can change the default calendar of DateTools , New Feature
+Remove accidental logging left in , Fixed
+Scaffolded views and controller for user-profile on Frontend , New Feature
+Add comments. , New Feature
+add Python 3.4 to trove classifiers , New Feature
+Responding to feedback issues to pull requests. , Fixed
+Merge pull request #44 from Nearsoft/interview-schedule-bug , Unknown
+Language-specific rules update , New Feature
+- Renamed comparison methods for brevity , Unknown
+bump version , Unknown
+- Added some spacing in tests , Refactor
+Merge migration refactor , Unknown
+InterviewFeedbackSerializer , New Feature
+Editing candidate info from candidate view now available. , New Feature
+- Added licens to lib files , New Feature
+Bump Cartfile , Unknown
+RC-2.0.0 latest version from github.com/frankweb/logic-test , Unknown
+Search bar changes. Branch set up for local testing before hotfix. , Fixed
+Add 	`publicGistCount` and `privateGistCount` property mapping. , New Feature
+Document where Moondragon is coming from. , New Feature
+Test it. , Unknown
+add branch filter , New Feature
+Fixed bug where you're unable add interviewers whoese email are not in the system. , Fixed
+- Updated travis file for tests false negatives , New Feature
+added role and source options from backend , New Feature
+rename status_all to status_downed , Refactor
+More configuration fixes , Fixed
+Added validation of @nearsoft domain with google oauth , New Feature
+- Added test stubs for the rest of the comparison methods , New Feature
+Refactoring controller syntax / spacing / etc... , Refactor
+Use new shared examples format , New Feature
+Update DateTools.strings , New Feature
+Merge pull request #61 from waterskier2007/master , Unknown
+- Added tests for isToday method , New Feature
+Added interviewer users accounts for nearsoft emails as far as current eci is concerned , New Feature
+Update README.md , New Feature
+Added option to show all candidates o just the ones created by the current user. , New Feature
+Removed Update User Status interactor. Interviews link up to Negotiate Terms Pending , Refactor
+Change OCTIssueEvent to use NS_ENUM , Fixed
+Update .gitignore , Unknown
+Update README.md , New Feature
+Don't warn about deprecations in ISO8601Bromatter , Fixed
+Merge pull request #232 from octokit/bump-afnetworking , Unknown
+Add Trello authorization api wrapper & get recruitment board , New Feature
+Fixed bug were removed candidates would still show up in queries , Fixed
+Use triple /s replace double /s. , Fixed
+- Changed "older" to "earlier" and "younger" to "later" to match Apple spec , Refactor
+Fixed shell account creation , Fixed
+Changes to create test to fit into the StatusChangeOrganizer flow. , Refactor
+When candidate is created a new event is sent through the app. Candidate list controller catches the event and fill the candidates list with the new data. Refactor on candidate list controller (some code order and deleted some unused vars). , Refactor
+- Added isYesterday method with tests - Fixed isTomorrow test , New Feature
+Status change for final interview , New Feature
+Merge pull request #29 from Nearsoft/FireEmails , Unknown
+Adjust code style. , Fixed
+Merge branch 'master' into upstream-master , Unknown
+Merge pull request #22 from c-buisson/redis_support , Unknown
+security hole , Fixed
+- Added TimePeriod init/factory methods , New Feature
+Change the type of milestone parameter to NSNumber. , Fixed
+up-to-date , Unknown
+Reload page on failure to check candidate status for logic test assignment , Fixed
+Renamed +defaultCalendar to +defaultCalendarIdentifier and added corresponding setter. Changed internals to use a single implicit NSCalendar instance where none is specified. , Refactor
+Merge pull request #210 from octokit/more-error-info , Unknown
+Correcting syntax errors , New Feature
+Add `-fetchRepositoryReadme:reference:` method to `OCTClient+Repositories` category. , New Feature
+Development application configurations , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Fix iOS tests , Fixed
+Added Interview Session model added column int_session_id to interviews to segregate interview attempts , New Feature
+Add Candidate button doesn't show for interviewers. , Fixed
+Changed timeout to 25 seconds to allow for unusually slow db port exposure. , Refactor
+teach hacheck to set rlimits , New Feature
+Integration test , New Feature
+More expectation find-and-replacing , New Feature
+Handling skills as objects with id and descriptions as objects when adding new candidates. , Refactor
+Mysql db seeding is done through the standard docker directory for such a task. Added test recruitment user to seeds. U: recruiter P: ledesma , Refactor
+Recruiter on charge is added to the comments on new card trellification. Removed retry that was causing duplicate comments. , New Feature
+Jump from Candidate view to interviews and interview feedbacks , New Feature
+Left out credentials and docker configs from .gitignore , Unknown
+Merge pull request #89 from MaciejWalczynski/swift_constants_support , Unknown
+bump version , Unknown
+English stortFormat localization strings , New Feature
+Merge pull request #78 from ryh/patch-1 , Unknown
+pass through the Host header on httpchk requests , New Feature
+Merge pull request #87 from frin/master , Unknown
+Trello button links to card + odds and ends here and ther , New Feature
+fix io_loop usage , Fixed
+Merge pull request #23 from Zhukn1/isTomorrow , Unknown
+Merge old files with Hackathon(Interview form) changes , Unknown
+Search for roles and sources now beign filtered with enabled categories. , New Feature
+- Travis update again , New Feature
+final comments , Unknown
+Model and controller for user_profile , New Feature
+relicense hacheck under the MIT license , Unknown
+Fixed authentication errors when submitting logic test. Redirecting candidates to logic-test view from user-profile and recruiters back to home. , Fixed
+bump readme , Unknown
+- Fixed warnings for NSCalendarUnits and NSCalendarIdentifier - Bumped podspec , Fixed
+README updates , Unknown
+Renamed organizer to cleaerly handle card creation only. , Refactor
+Merge pull request #32 from Nearsoft/InterviewPermissions , Unknown
+Refactored candidatelist directive If the candidate has to have an assigned logic test we set the status manually on creation. We MUST change this and look for a better way instead of broadcasting the assign_logic event. , Refactor
+Type :) , Unknown
+removed consoles , Unknown
+Encode "publicGist" field of gist edit with boolean value transformer (fixes #254) , Fixed
+Use -mtl_valueMappingTransformerWithDictionary: , New Feature
+Merge pull request #55 from Nearsoft/watcher , Unknown
+Order comments by descendent order , Fixed
+Merge pull request #255 from GroundControl-Solutions/gist-edit-fix , Unknown
+The nested repository has the same server as the PR. , Fixed
+++Mantle and ++RAC , Unknown
+Update README.md , New Feature
+Merge pull request #7 from jnutting/master , Unknown
+Merge pull request #221 from octokit/authorizations-updates , Unknown
+Added flag to add candidate for auto-assigning logic test to people. , New Feature
+Update CREDITS.md , New Feature
+Update README.md , New Feature
+Merge pull request #226 from rastersize/swift-compatible-enums , Unknown
+tests for checkers , New Feature
+Merge pull request #249 from leichunfeng/perfect-date-jsontransformer , Unknown
+Complete date JSONTransformer. , Fixed
+Fixed bug where all spaces where consumed from each skill added to a candidate , Fixed
+Spacing , Refactor
+Added JWT to authentication process , New Feature
+user_session interactor updated , New Feature
+Class name change in documentation. , Refactor
+Update README.md , New Feature
+fix test error , Fixed
+Update README.md , New Feature
+Front end handling , Unknown
+Update DateTools.strings , New Feature
+Merge pull request #5 from github/new-authorizations-api , Unknown
+Fixed bug with JWT secret env variable as well as not_candidate middleware function bug , Fixed
+Pristine master setup , Unknown
+py3 fixes , Fixed
+bump to 0.6.0 , Unknown
+Interviews flow properly from one to the next. , Fixed
+- Added date parsing methods , New Feature
+Merge pull request #22 from Nearsoft/InteractorRefactor , Unknown
+Removed minitest , Refactor
+Fix yesterday being 2 days ago. Fixes #47. , Fixed
+++xcconfigs , Unknown
+Fixed syntax error on user model. Added Trellifier attempt when updating user , Fixed
+Merge branch 'master' of https://github.com/octokit/octokit.objc into octokit-master , Unknown
+Merge pull request #60 from Nearsoft/rc1.1.0 , Unknown
+Update CREDITS.md , New Feature
+Merge pull request #49 from dtweston/numeric_times , Unknown
+Update README.md , New Feature
+Updated NSDate+Datetools category to reuse formatter instances. , New Feature
+Add haproxy checker , New Feature
+Re-link RAC and Mantle bump OS X target , Unknown
+Merge pull request #64 from pzbyszynski/master , Unknown
+Change OCTPullRequest to use NS_ENUM , Fixed
+++AFNetworking , Unknown
+Update CREDITS.md , New Feature
+OK Computer , Unknown
+- Implemented test for equality for DTTimePeriodCollection , New Feature
+Update README.md , New Feature
+Use an empty string for the token stub , Fixed
+Fix the indentation - step2. , Refactor
+move scripts into setuptools magic; more tests , Refactor
+modify test to handle autofill of --reason , Fixed
+bump version to 0.4.0 , Unknown
+Fixing errors , Fixed
+Centralize the base content type. , Refactor
+Update to Carthage 0.5 directory structure , Fixed
+Removed logic-test legacy code from repo , Refactor
+Only build OctoKit schemes on CI , Fixed
+fix for "Compiler error 'unknown type name NSInteger'" (issue #52) , Fixed
+Merge pull request #14 from uber/rlimit , Unknown
+Add some missing properties to OCTRepository. , Fixed
+Selecting an answer sends out a request for that answer to be saved. Time started finished and date_taken determined in back end now. , Refactor
+corrected issues on interviewer candidates assigned , Fixed
+Fixed bug where assigning an interview from having failed it would yield an interview with null type. , Fixed
+Add support for python 3.2/3.3 , New Feature
+Merge pull request #48 from pzbyszynski/master , Unknown
+Fix reference to Quick project , Fixed
+Pin AFNetworking to https://github.com/keithduncan/AFNetworking/commit/5291311e1e64ea861dc1d339f1dd3ce0465f4a0f , Fixed
+Merge pull request #196 from barrettclark/master , Unknown
+Returns :pending if not all graded , Fixed
+Merge pull request #80 from raphaelcruzeiro/master , Unknown
+Tests. , Unknown
+Fix test_checker.py , Fixed
+Displaying results on candidate info view , Unknown
+Refactor update_user status to be a model method instead of an interactor. , Refactor
+be explicit about exit code , Refactor
+Delete any existing authorization upon HTTP 200 , Fixed
+Development docker configurations , Unknown
+TrelloCardCreateOrganizer triggers on creating a candidate , New Feature
+Update DateTools.podspec , New Feature
+use newer fancier complainier print , Refactor
+Email on user creation. , New Feature
+hadown autofill --reason with SUDO_USER or SSH_USER if not specified and error if username found in /etc/nonhumans , New Feature
+Added rspec to dockerized version. Modified readme to include the command to run rspec tests. , New Feature
+Added Home button to navigation bar , New Feature
+Used yeoman to create the new index design using BEM methodology , Unknown
+- Changed names for clarity , Refactor
+Update README.md , New Feature
+Change parameter sort -> orderBy order -> asc. , Refactor
+V 1.2.0 , Unknown
+Update DateTools.strings , New Feature
+++Quick , Unknown
+Added interview view as an intermediate step to give out interview feedback. , New Feature
+- Dropped deployment target of tests to 7.0 , Unknown
+Merge pull request #63 from Nearsoft/update-candidate-list-when-creating-a-new-candidate-and-set-it-to-the-top-of-the-list , Unknown
+- Fixed string equality bug for russian and ukranian language recognition , Fixed
+- Fixing bug that crashes unit tests. Will remove if we can prove it works , Fixed
+Fixed duplicate interview feedback bug , Fixed
+Merge pull request #72 from yakatak/bug/DT-56_import_bundle_from_framework , Unknown
+Interview Mail being sent to interviewer and interviewee with their respective instructions. , Unknown
+- Implemented DTTimePeriod relationship test methods , New Feature
+stop collector , Unknown
+Updated read me with new grunt instructions. , Refactor
+Update README.md , New Feature
+added isTomorrow flag , New Feature
+add a symlink for README so that sdist doesn't whine , New Feature
+Add more endpoints to API wrapper , New Feature
+update README , New Feature
+prettier output when downed without reason , Refactor
+assign interviews finished , New Feature
+Merge pull request #44 from cardinalblue/more_short_format_i18n , Unknown
+Initial commit , New Feature
+User Mailer using environment base_url variable , Refactor
+Merge pull request #227 from octokit/set-nested-repo-server , Unknown
+Recreate OctoKit iOS as a framework , New Feature
+Fix the indentation - step3. , Refactor
+Updating user_profile , New Feature
+Merge remote-tracking branch 'octokit/master' , Unknown
+bump version to 0.7.0 , Unknown
+Update README.md , New Feature
+Replaced magic numbers with references to symbolic constants , Refactor
+Removing buncha logs , Unknown
+Update README.md , Unknown
+Fix EXTKeyPathCoding.h import , Fixed
+Update README.md , New Feature
+Merge branch 'safe_load' , Unknown
+Implemented auto-trello card creator using recruitment@nearsoft.com. We no longer need front end trello auth , New Feature
+play with setting up travis , Unknown
+deployement scripts , New Feature
+[DT-56]: Updates the macro to safely locate the localization bundle. , New Feature
+pass through query parameters , New Feature
+switch to using WatchedFileHandler , New Feature
+Add new fields to interviews , Unknown
+bump version to 0.4.1 , Unknown
+- Implemented test for isSamePeriod , New Feature
+bump version , Unknown
+removed default encoding , Fixed
+Added Croatian localization , New Feature
+Disabled UserMails and fixed error message that showed up when it shouldn't. , Fixed
+bump version to 0.4.2 , Unknown
+Merge pull request #206 from octokit/create-pr , Unknown
+s.version.to_s instead of implicit tag number. , Refactor
+Merge pull request #27 from uber/T130135-endpoint , Unknown
+Update README.md , New Feature
+change active score card , Refactor
+Merge branch 'multi' , Unknown
+deployment scripts , New Feature
+Merge pull request #6 from nixonnixon/master , Unknown
+Merge branch 'log_less' , Unknown
+Added generated to add Candidate modal instead of success prompt. , New Feature
+Merge pull request #31 from Nearsoft/comments_date_words , Unknown
+app.yml modifications , Refactor
+Merge pull request #77 from tiberius33/master , Unknown
+- Fixed some little formatting errors , Fixed
+Add enabled field to candidate_sources. , New Feature
+Added Slovenian localization sorted languages by name , New Feature
+Removed interview and logic test assignment candidate emails. , Unknown
+Update DateTools.podspec , New Feature
+Added paging functionality but there is a missing restriction for next button will work on that as soon as request from server is updated. , New Feature
+Rename forkeeRepositoryName => forkedRepositoryName , Refactor
+Add support for ios 6.0 , New Feature
+declare functions instead of use anonym functions , Refactor
+fix a minor style thing , Fixed
+bump to version 0.5.1 , Unknown
+Trello cards are archived until English Interview Matt and relevant recruiter are added as members. , New Feature
+more unit test/s , New Feature
+- Bumped podspec , Unknown
+Parse the actor's avatar URL in events , New Feature
+JWT_SECRET env variable added , New Feature
+dc.dev functions properly added latest schema , New Feature
+Created user profile migration , New Feature
+Fix lint , Fixed
+Add HTTP Header `application/vnd.github.v3.text-match+json`. , New Feature
+- Implemented tests for shorten/lengthen DTTimePeriod , New Feature
+fix to pass the tuple always and add a unit test , Fixed
+Add credits file , New Feature
+Update README.md , New Feature
+Wrong mail for recruitment hotfix. Include recruiter name in email hotfix. , Fixed
+- More NSInteger migration , Refactor
+Slight change to deploy script (stops web container not all containers) , Refactor
+More test updates import OHHTTPStubs properly , Fixed
+- Finished DTTimePeriod documentation , New Feature
+trailing comma , Fixed
+Watering local , Unknown
+Merge pull request #35 from vrcaciuc/master , Unknown
+Fix tests for python3 , Fixed
+Fix code examples. , Fixed
+Removed binding.pry and console.logs , Unknown
+Merge pull request #41 from Zhukn1/master , Unknown
+Merge pull request #1 from MichMich/master , Unknown
+Relicense under the MIT license , Unknown
+Add tests , New Feature
+SQL syntax error , Fixed
+Email copy update , Refactor
+Modified migration Query to take into account user_profile initializations. , New Feature
+Merge branch 'count' , Unknown
+Update DateTools.podspec , New Feature
+Completely refactors logic for days ago (2 days ago should not be the same as 48h ago). Includes re-fix of logic for calculating "yesterday". , Refactor
+Merge pull request #228 from leichunfeng/add-properties-to-octentity , Unknown
+Update README.md , New Feature
+Added AddCandidate Organizer , Refactor
+Added Trello configuration into its own initializer. Corrected interactors to accomodate this change , New Feature
+Merge pull request #53 from Nearsoft/dont-send-email-option , Unknown
+Fixed bug where candidates kept their unencrypted password and could not log in , Fixed
+- Removed bad methods in DateTools for timeAgo , Fixed
+:fire: mirage-preview , New Feature
+++Nimble , Unknown
+- Added podspec , New Feature
+Now actually deleting the file , Unknown
+conflicts generated after merge fixed , New Feature
+Implemented better Tornado version check with regex , Refactor
+log requests in hacheck at loglevel INFO instead of WARNING , Refactor
+Merge branch 'LT-missing-files' of https://github.com/Nearsoft/pipeline into LT-missing-files , Unknown
+Front end changes to accommodate new interview types , Refactor
+Merge pull request #45 from Nearsoft/googleLogIn , Unknown
+remove unnecessary line , Refactor
+Merge pull request #20 from qizh/master , Unknown
+allow passing multiple service_names to haup/hadown/hastatus , New Feature
+When re-creating deleted cards don't skip last comment , Fixed
+Merge with rc1.2.0-alternate , Unknown
+Merge branch 'travis_matrix' , Unknown
+Merge pull request #34 from fahlout/master , Unknown
+Update README.md , Unknown
+Add a high-level description for each new event class , New Feature
+Hack and burn this rotten wood , Refactor
+integrated , Unknown
+don't require write access for the master process , Fixed
+update README more , New Feature
+Merge pull request #95 from bapatel1/master , Unknown
+Merge pull request #48 from Nearsoft/changing_candidate_recruiter , Unknown
+Update DateTools.podspec , New Feature
+Watering from master , Unknown
+candidate results started along with other changes , Unknown
+Interview Model , New Feature
+Merge pull request #29 from uber/version , Unknown
+Mocked front end for change recruiter request , New Feature
+- Added custom calendar option to "from" methods , New Feature
+Ignore .idea files , Unknown
+Fixed status for people with pending test who've already been assigned. , Fixed
+Assigned logic test shows up properly for candidateitems Added success and greeting modal view templates. , Fixed
+Initial commit , New Feature
+remove wiki property and candidates from candidate list scope , Unknown
+- Added month handling! With tests too! , New Feature
+- Implemented add/insert/remove test for DTTimePeriodCollection , New Feature
+Update README.md , New Feature
+Migration , New Feature
+pw_name not pw_nam , Refactor
+refactor login controller , Refactor
+Merge pull request #27 from Nearsoft/candidate_sources_enabled , New Feature
+Merge pull request #39 from Nearsoft/DockerOneLiner , Unknown
+Merge pull request #209 from octokit/parse-pr-branches , Unknown
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Fix test imports , Fixed
+fix tests , Fixed
+Added delayed_job gem , New Feature
+Fix visibility of some headers , Fixed
+Trello notification on LT finish for a candidate , New Feature
+Current schema , Unknown
+Merge pull request #198 from JeffScaturro/PullRequestsOnRepo , Unknown
+- Moved shifting to group level for commonality , Refactor
+- Renamed functions for clarity , Refactor
+Modified filter to handle multiple words , New Feature
+Added method to check if date is today , New Feature
+Merge pull request #54 from Nearsoft/Show-Mine-All-Frontend-Implementation , Unknown
+Fixed bug that didn't allow for adding a candidate with a skill not already in the DB , Fixed
+Role verification for sensistive endpoints , New Feature
+Making candidateList work , Fixed
+Interview_date is stored including hours and minutes now. , New Feature
+User Profile Form boilerplate HTML , New Feature
+Show mine now properly working and its easier to distinguish which one is clicked on , New Feature
+Merge pull request #231 from octokit/papi-pacify , Unknown
+bump version , Unknown
+refactor add candidate directive , Refactor
+- Finished example app , New Feature
+- Fixed polish translation , Fixed
+do I even know how to markdown , Refactor
+Update README.md , New Feature
+- Moved some straggling lib files to there lib folder , Refactor
+changed deprecated call NSWeekdayCalendarUnit to NSCalendarUnitWeekday. , Fixed
+Merge pull request #225 from AquaGeek/avatar-url , Unknown
+Update README.md , New Feature
+Watering from rc-1.3.0 , Unknown
+- Implemented relationToPeriod: , New Feature
+Merged rc1.0.0 ready for deployment , Unknown
+Merge branch 'pass_headers' , Unknown
+Update README.md , New Feature
+JK , Unknown
+Logic test pending on Chrome hotfix , Fixed
+Merge branch 'Add-tabs-for-candidate-pages' of https://github.com/nearsoft/pipeline into candidate-filter-bugfix , Unknown
+Serializers for the candidate results , New Feature
+++AFNetworking , Unknown
+Added change to migration Query so that candidates who have an assigned logic test will have the correct status , New Feature
+Merge pull request #56 from Nearsoft/trello-gem-spike , Unknown
+bump to 0.5.2 , Unknown
+allow hacheck to bind to multiple ports to spread load around a little bit , Fixed
+Update README.md , New Feature
+Fix xcconfig references remove some dead refs , Fixed
+Watering from master , Unknown
+- Kept moving to NSInteger from double , Unknown
+Added default container ports corrected Readme.md , New Feature
+db:seed not part of docker-compose up for master. , Refactor
+Merge pull request #37 from Nearsoft/AuthenticationToken , Unknown
+Centered button , Refactor
+Merge pull request #21 from Nearsoft/interview-process , Unknown
+Local Merge , Unknown
+Modified lightbuild to trigger on modifications of any file in pipeline-app , New Feature
+Updated gruntfile and wiki to reflect new directory names. , Refactor
+Update README.md , New Feature
+Missing files sifted from frankweb/logic-test REPO and chnages to get them up and running , Unknown
+User_profile_controller methods for show update and whitelisting , New Feature
+Merge pull request #90 from m1kachu/patch-1 , Unknown
+Import SystemConfiguration before AFNetworking , New Feature
+bump version to 0.3.3 and update README , Unknown
+Modified database schema. Removed superflous serializers files. Added migrationQuery for eventual development. , Refactor
+- Finished documentation for DateTools info add subtract , New Feature
+s/beAnInstanceOf/beAKindOf/ , Unknown
+Rename memberName => memberLogin , Refactor
+Not sending emails , Unknown
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Merge pull request #230 from octokit/pacify-xcode , Unknown
+Japanese shortFormat localization , New Feature
+Merge branch 'allow_4_1' , Unknown
+Update README.md , New Feature
+Fixed login bug , Unknown
+Latest merge for production , Unknown
+Added notification with LT results of candidates for the recruitment team. , New Feature
+Deployment preparations , Unknown
+Update README.md , New Feature
+add a new http endpoint /recent to show recently-queried services and a new entry point (halist) to print that data , New Feature
+Refactor for Interview Interactors to comform to the StatusUpdateOrganizer flow , Refactor
+Merge pull request #237 from leichunfeng/add-method-to-octclient+octrepository , Unknown
+Update README.md , Unknown
+- Added documentation for DTTimePeriodCollection , New Feature
+- Added basic error handling in DTTimePeriodCollection class , New Feature
+Update README.md , New Feature
+Users status update flow refactored. Now flows through the StatusUpdateOrganizer , Refactor
+Merge pull request #40 from Zhukn1/is_weekend , Unknown
+Merge pull request #25 from premosystems/master , Unknown
+Change OCTClient to use NS_ENUM and NS_OPTIONS , Fixed
+Initial support of mysql as a check protocol , New Feature
+bump version to v0.5.3 , Unknown
+refactor candidate item directive , Refactor
+Create ROADMAP.MD , Unknown
+Fix everything about OctoKitDependencies' targets , Fixed
+- Updated Travis CI file , New Feature
+Fixed creating logic tests. , Fixed
+Update README.md , New Feature
+- Cleaned up daysFrom method (Silly it's not a fuzzy value!) , Refactor
+optionally send service name as a header , New Feature
+Merge pull request #217 from octokit/relative-paths , Unknown
+More test fixes now building successfully , Fixed
+the recruiter can assign interviews , New Feature
+Merge pull request #195 from Dshankar/create-blob-optional-encoding , Unknown
+Fix running unit tests add specs to iOS test too , Fixed
+Added method to determine if date is a weekend. (Uses current callendar). , New Feature
+Update OCTClient+Watching.m , New Feature
+GET candidate_profile , New Feature
+Managing pending tests on candidate view , New Feature
+rc1.1.0 init , Unknown
+fix python 3.x compat , Fixed
+- Added daysInYear method , New Feature
+get rid of aliasing in hacheck/handlers.py , Fixed
+Localization fix , Fixed
+Merge pull request #262 from leichunfeng/create-issues , Unknown
+fix tests , Fixed
+Copy iOS frameworks into test target , New Feature
+Merge branch 'app_name_header' , Unknown
+Merge pull request #267 from leichunfeng/search-repositories , Unknown
+Merge remote-tracking branch 'octokit/master' , Unknown
+Merge branch 'multiple_ports' , Unknown
+better py26 , Refactor
+Removed a bunch of binding.pry , Unknown
+fix for isLeapYear , Fixed
+support logging to a file if provided in the config , New Feature
+Trello notification on changing candidates recruiter now working properly , New Feature
+- Added date editing methods , New Feature
+Merge pull request #207 from octokit/pin-to-dont-cancel-authentication-requests , Unknown
+Merge pull request #88 from DZNS/master , Unknown
+Mocked controller for user profile , New Feature
+Integration test to be continued , New Feature
+bump version to 0.4.3 , Unknown
+command-line scripts setup.py , New Feature
+- Implemented containsDate in DTTimePeriod , New Feature
+Merge LT-missing files , Unknown
+Fuck xctool , Unknown
+add MANIFEST.in , New Feature
+Update DateTools.strings , New Feature
+Add entry point for main , New Feature
+- Added DateTools.h to link entire toolset , New Feature
+Name Last Name Email read as comma sepparated values clicking Home clears search history. If there's something on the storage navbars will always show it , New Feature
+UserMailer disabled , Unknown
+bump version to 0.3.1 , Unknown
+- Added formatted dates for convenience , New Feature
+++OHHTTPStubs , Unknown
+Fixed bug where UpdateUserStatus was not being called on passsing interview. Fixed boolean comparison that was assigning a value , Fixed
+bump version , Unknown
+better handle TCP checks where the connection is refused (don't wait for timeout) , Refactor
+- Added Time Period information classes , New Feature
+Add support for WatchEvent , New Feature
+adding Indonesian localization , New Feature
+Merge pull request #84 from danthorpe/fix_for_unit_test_project , Unknown
+Merge pull request #205 from TomLiu/readme , Unknown
+Added context setter interactor for StatusUpdateOrganizer flow. , Refactor
+Allow hacheck to require Tornado 4.1 , New Feature
+Fixed bugs , Fixed
+Merge branch 'octokit-master' into search-repositories , Unknown
+Renamed docker-compose for different environments , New Feature
+Changes to LT results email for recruitment team , Refactor
+Database is up to date with production. , Unknown
+Use the new user repositories API. , New Feature
+Fixed Polish translation , Unknown
+Caps should have no effect on skills searches anymore. Skills are now separated by commas '' you can now search for Ruby On Rails , Fixed
+Adding interviewer view.. in progress , New Feature
+- Implemented DTTimePeriod shift tests , New Feature
+Ironing out kinks after refactoring , Refactor
+Update DateTools.strings , New Feature
+Fixed typo on the pt-PT translations. , Fixed
+Add support for ForkEvent , New Feature
+Changed English Interview scoring system and messages , Refactor
+get candidate information from backend , New Feature
+Added default trello credentials and removed all trello logic from front end , Refactor
+- Added tests for isTomorrow method , New Feature
+- Stubbed out tests for DTTimePeriodCollection , Unknown
+Added new application controller filter for data only accessible if it's data of @current_user , Refactor
+Update CREDITS.md , New Feature
+- Implemented lengthen/shorten methods in DTTimePeriod , New Feature
+Redirecting from routing error , New Feature
+Modified seeds to add candidate account and interviewer account. Removed seed database. , Refactor
+Merge pull request #34 from Nearsoft/InterviewFeedbackPresentation , Unknown
+- Removed last of millisecond precision , Fixed
+show the last response in "haupdown -a list" , New Feature
+First deploy. , Unknown
+fixed untracked files , Fixed
+100% coverage what-what , Unknown
+Now fitering works as expected. , Fixed
+- Added DTTimePeriod information tests , New Feature
+Status filter unavailable to candidates , Fixed
+- Added date comparators , New Feature
+Catalan localization , New Feature
+Merge pull request #36 from Nearsoft/AuthenticationToken , Unknown
+remove comment , Unknown
+Interview Forms are only accessible to the Interviewer and to Admins. , New Feature
+Merge pull request #229 from leichunfeng/add-properties-to-octrepository , Unknown
+UserMailer LT results bug fixed , Fixed
+Create Interview working fine now , Fixed
+Simplified compose up commands , Refactor
+Skills properly displayed in this copy. , Fixed
+Added candidatse_pending_feedback endpoint for the interviewer home page , New Feature
+call out that I do not need sudo and use the LXC builders instead of the VM builders , Refactor
+Create trello service and add angular-trello-api-client , New Feature
+Resolving conflicts. Pagination should be done as the last step in the query. , Fixed
+Handle nil response objects (e.g. on HTTP 204) , Fixed
+Merge pull request #7 from github/upgrade-quick , Unknown
+Revert "Fuck xctool" , Unknown
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+- Implemented test for sorting in DTTimePeriodCollection , New Feature
+Bleh. , Unknown
+s/base/baseBranch s/head/headBranch , Unknown
+update README and TODO , New Feature
+Update README.md , New Feature
+Fixed bug when calculating new status when passing a profile interview; , Fixed
+- Added older than and younger than comparison methods , New Feature
+Changes to get app running after truncating history from logic-test , Unknown
+Merge pull request #24 from Bendihossan/cy , Unknown
+- Added DTTimePeriod with some scaffolding , New Feature
+- Cleaned up yearsFrom weeksFrom and daysFrom , New Feature
+Update to new Quick spec format , Fixed
+export all framework headers referenced in OctoKit.h for OSX , New Feature
+Update README.md , New Feature
+Solved test issues , Fixed
+Parse fork sources and parents. , Unknown
+Added varying compose files. , New Feature
+close stream for Tornado 4 , Unknown
+Commented out mailer it wasn't working properly , Unknown
+Integration test done some test fixed , Unknown
+Short format localization for Turkish , New Feature
+Add three methods to fetch pull request(s). , New Feature
+Interview Feedback details can be accessed from candidate view now , New Feature
+Interview assigned buttons now redirect to that users last interview assigned view , New Feature
+Accidentally deleted urlaccess control service instead of trelloservice. , Unknown
+Residue bindings. , Unknown
+bump version to 0.5.0 , Unknown
+Cleaned up the code. Spacing and smelly ruby. , Refactor
+Trellify every action , New Feature
+- Added spanish to tests project , New Feature
+Merge pull request #35 from Nearsoft/nearsoftProfile , Unknown
+Add method `-fetchAllReferencesInRepository:` to `OCTClient+Git`. , New Feature
+refactor interview controller , Refactor
+Removed unnecessary fields from interview_feedback model , Refactor
+Merge pull request #28 from Nearsoft/FireEmails , New Feature
+Update README.md , New Feature
+Interview creating and updating send relevant emails and are in working order. , Unknown
+++Mantle , New Feature
+Fix ukrainian translation mistakes , Fixed
+ALL The missing changes for recruitment-api , Unknown
+Change the format view of the date time in comments. , Refactor
+Sending token in get requests. Fixed bug that caused you to lose your credentials before the session expired. , Fixed
+Remove logging check code instead of message , Refactor
+Merge pull request #22 from edpelesh/patch-2 , Unknown
+Get Candidates query manages filter text , New Feature
+Merge pull request #223 from octokit/carthage-0.5 , Unknown
+Merge pull request #13 from cemaleker/master , Unknown
+Fix libraries to link per platform , Fixed
+Fixed issue wiht new Status IDs both in transforming old db data and displaying it in the front end. , Fixed
+#noprefix , Unknown
+Merge pull request #24 from Nearsoft/DockerLogger , Unknown
+use yaml.safe_load instead of yaml.load , Refactor
+M I R A G E , Unknown
+Merge pull request #28 from uber/redis_sentinel_info , Unknown
+Add support for MemberEvent , New Feature
+Update DateTools.podspec , New Feature
+Test it. , Unknown
+Merge pull request #33 from mjanda/master , Unknown
+Update README.md , New Feature
+Accept mirage-preview for /authorizations , Unknown
+Test Service calls updated user_test function. Symbolic constants now work properly. Added JSON for a 20/20 test to test/fixtures. , Fixed
+Update to jspahrsummers/objc-build-scripts@a54782 , Fixed
+- Finished implementing tests for DTTimePeriodCollection , New Feature
+Removing credentials , Unknown
+Merge pull request #51 from Nearsoft/google-log-in , New Feature
+Update README.md , New Feature
+Travis CI update , New Feature
+- Formatting , New Feature
+test , Unknown
+Added 'daemons' for when we're in prod added delayed_jobs info to read me , New Feature
+Add option to force numeric dates , New Feature
+Merge pull request #30 from Nearsoft/enabled_search , Unknown
+Add support for PublicEvent , New Feature
+User skills insert & tests , New Feature
+Use the new user orgs API. , New Feature
+Merge pull request #16 from sendoa/basque-translation , Unknown
+Added -createPullRequest... , New Feature
+Clarify when we won't receive a token from the API , Refactor
+- Added cocoapods badge , New Feature
+Removed status_changes model added new_status_calculator interactor. All proceeding status will be produced by this interactor. , Refactor
+Merge branch 'haupdown_last_response' , Unknown
+User profile won't be prompted until Hired or offer accepted , Refactor
+Merge pull request #20 from Nearsoft/comments , Unknown
+Score needed not to be NULL as well , Fixed
+Refactoring InterviewFeedback + Interviews , Refactor
+- Added the monthsAgo method. Forgot that one... , New Feature
+Merge pull request #240 from octokit/moondragon , Unknown
+Update README.md , New Feature
+build against four tornado versions , Unknown
+bump to v0.9.0 , Unknown
+Modify fetchAllPages parameter to NO. , Fixed
+updated readme , New Feature
+- Added .NET style date creation methods , New Feature
+refactor home controller , Refactor
+Update CREDITS.md , New Feature
+py2.6 , New Feature
+Merge pull request #49 from Nearsoft/interviewers-view-imp , Unknown
+Version -> 0.3 , Unknown
+Merge pull request #62 from Nearsoft/add-candidate-refactor , Refactor
+Update README.md , New Feature
+removed unnecessary libraries , Refactor
+- Added default locale to formatters , New Feature
+User mails going through. Removed Google sign in temporarily. , Fixed
+remove 2.6 build from travis config , Refactor
+Accept moondragon. , New Feature
+Merge pull request #21 from edpelesh/patch-1 , Unknown
+we require six >= 1.4.0 , New Feature
+- Implemented period group durations , New Feature
+AddNewCandidateCard function on TrelloService still having issues conifugring board writing permissions , New Feature
+Results of hackathon dash. First steps at restructuring how Interview related information is stored in the database and allowing for reviewers to easily score candidates. , New Feature
+python2.6 support , New Feature
+Update README.md , New Feature
+remove wiki comments , Refactor
+Added missing mail templates and logic. , New Feature
+Change OCTNotification to use NS_ENUM , Fixed
+Merge branch 'usertest-null-date-bug' into changing_candidate_recruiter , Unknown
+- Added documentation for shifting methods , New Feature
+Add a new code for secure connection errors , New Feature
+Fixed bug where new user_tests where created with NULL dates and start / endtimes and added migration to correct records on prod. , Fixed
+Added handling of Negotiate Terms interview , New Feature
+Merge pull request #74 from Thanx/master , Unknown
+Removed Update interactors. Their logic is now in their respective controllers update function , Refactor
+Update README.md , New Feature
+fix for linker error in a swift project , Fixed
+Add property ownerAvatarURL. , New Feature
+refactor home controller , Refactor
+Added Dockerfile for pipeline-api , New Feature
+Fixed SQL syntax error , Fixed
+Watering from trello , Unknown
+Simplified Chinese shortFormat localization strings , New Feature
+Merge pull request #52 from Nearsoft/generate-new-password , Unknown
+update docs a bit , New Feature
+Merge pull request #50 from Nearsoft/google-log-in , Unknown
+Sending Emails with LT results upon completion. , New Feature
+Simplifications of DB seeding process. yay. , Refactor
+Merge pull request #1 from MatthewYork/master , Unknown
+Refactor stubbing blocks to make status codes easy , Refactor
+sending mails , Unknown
+Made auto email on adding candidate not the default and added auto-email opt in checkbox , New Feature
+added OCTContentEncoding enum fixed spacing , New Feature
+Update README.md , New Feature
+- Implemented isMoment with tests , New Feature
+Update README.md , New Feature
+- Implemented isSamePeriod isInside and overlapsWith , New Feature
+Firing emails on test competion/assignment and on interview assignment. , New Feature
+Candidate Details links to their linkedin and NS-Profile , New Feature
+Xcode lulz , Unknown
+fixed some security issues and undefined credentials , New Feature
+Updatinginterview feedback with new model works fine now. , Fixed
+New model for Interview associates interview feedback under one umbrella for every interview attempt. , New Feature
+Fixed bug not sending interviewer mail , Fixed
+Added mailing logic for more type of emails. , New Feature
+Merge pull request #59 from Nearsoft/null-candidate-status-bugfix , Unknown
+added random password generator , New Feature
+Added Status Changes model back in. Renamed id_user_ch to more descriptive actor column , Refactor
+Additions to user_profile migration , New Feature
+Merge pull request #8 from MatthewYork/timeago , Unknown
+Fix incorrect sample code in readme , Fixed
+refactor interview form controller and use inject , Refactor
+Merge pull request #235 from leichunfeng/fetch-all-references , Unknown
+AddCandidateOrganizer handles candidate creation now , Refactor
+Added front and back interview integration , New Feature
+recruiter can search candidates from any section , New Feature
+Traditional Chinese shortFormat localization strings , New Feature
+run tests on 3.4 , Fixed
+Corrected README once again made Active Model Serializers version explicit changed Ruby 2.2.0 image for Ruby 2.2-slim image. , Unknown
+WIP migrate to Nimble expectation format , New Feature
+Include some examples to bring out the difference. , New Feature
+Merge pull request #36 from waterskier2007/master , Unknown
+Concluding merge. , Unknown
+Merge pull request #224 from AquaGeek/more-events , Unknown
+Use -weekOfYear instead of -week to remove iOS 7 deprecation warnings. , Refactor
+Spanish stortFormat localization strings , New Feature
+Changed in skil handling , Fixed
+ - Began scaffolding example project , Unknown
+Added candidate filter based on their current status , New Feature
+Update README.md , New Feature
+better errors on wrong args , Refactor
+Removed binding.prys , Unknown
+Delayed job is created on starting test that will end_test in 1 hour , New Feature
+fix tests , Fixed
+do not try to frob spools if not absolutely necessary , Fixed
+Implemented with backend + grunt generated files , New Feature
+Users with pending or assigned logic tests are redirected to fill out their user-profile. , New Feature
+Added new 'current_recruiter' column to users table , New Feature
+Fixed bug where update status was not being call after updating interview results. , Fixed
+deploy scripts modified to take advantage of new docker-compose. , Refactor
+Interview mailer , New Feature
+Add language from repository response to parsed OCTRepository object , New Feature
+- Completed tests for DateTools! , New Feature
+:fire: Prefix headers , Unknown
+Added Satellizer to front end and OAuth handling to back end. This is shoddy work need revisions. , New Feature
+Added id primary key for user_test_answers , Refactor
+Add `subscribersCount` property to `OCTRepository`. , New Feature
+refactor candidate and candidate info , Refactor
+Merge pull request #204 from octokit/more-like-wtf-stubs , Unknown
+Merge pull request #26 from paulina-pacheco/patch-1 , New Feature
+Include more error info in client errors. , New Feature
+Fix OctoKit pod spec url , Fixed
+Include key skills in Trello card name , New Feature
+Change AFNetworking origin , Fixed
+Not allowing interviews to be scheduled to past dates anymore , Fixed
+Fix preview Content-Type , Fixed
+Fixed error when seeding candidate profile , Fixed
+Update DateTools.strings , New Feature
+Change OCTRefEvent to use NS_ENUM , Fixed
+- Added OS X target compatibility to pod , New Feature
+- Finished DTTimePeriod documentation , New Feature
+Update README.md , New Feature
+Merge pull request #6 from github/only-revoke-missing-tokens , Unknown
+Removes the DateTools source from the test project's test bundle. , Refactor
+Logs are not displayed in STDOUT. , New Feature
+Uncommented user mailer calls. , Refactor
+V1.2.0 merge , Unknown
+Google Auth backend handling , New Feature
+Re-add mirage-preview. , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline into interview-schedule-bug , Unknown
+Merge pull request #208 from octokit/parse-fork-info , Unknown
+- Updated time ago to handle seconds , New Feature
+Merge pull request #253 from RuiAAPeres/master , Unknown
+Update README.md , Unknown
+Merge pull request #218 from octokit/cartfile , Unknown
+Merge branch 'master' of https://github.com/nearsoft/pipeline , Unknown
+split checker into its own module , Refactor
+Parse the head and base branches. , Unknown
+fixed untracked files , Unknown
+Watering from master , Unknown
+Removing superflous files , Refactor
+no but rly , Unknown
+++Nimble , Unknown
+++OHHTTPStubs , Unknown
+Added credentials for test recruiter to README , Unknown
+Merge pull request #11 from apalancat/master , Unknown
+Merge pull request #236 from leichunfeng/add-property-to-octrepository , Unknown
+Fixed migrations and typo on trellifier comments , Fixed
+- Removed some unused variables , Refactor
+Create Interview interactor updated to handle new interview_types , Refactor
+Get INFO commands from Redis and Redis-Sentinel , Unknown
+Added the ability to stop watching a repository , New Feature
+Merge pull request #46 from Nearsoft/candidate-filter-bugfix , Unknown
+++xcconfigs , Unknown
+Change parameter asc to ascending. , Refactor
+Fix checkouts path for OctoKitDependencies too , Fixed
+Fixed compiler warnings. , Fixed
+add to readme , New Feature
+- Added and implemented DTTimePeriodGroupTests , New Feature
+remove force from Gruntfile , Refactor
+Merge pull request #30 from bengotow/master , Unknown
+update the "week" translation , New Feature
+++OHHTTPStubs , Unknown
+Bold and slanting comments , New Feature
+Merge branch 'rc1.0.0' of https://github.com/nearsoft/pipeline , Unknown
+- Finished documentation for DateTools category , New Feature
+Added line to google user creation , Fixed
+Update README.md , New Feature
+handle weird exit codes better , Refactor
+Welsh language translations , New Feature
+Correctly preserving user answers and test countdown. , Refactor
+Added assigned_at field to interviews. Date is not being used anymore the view reflects these change in requirements. , New Feature
+update README bump version , New Feature
+Ignoring dockerfiles , Unknown
+add TCP checks more tests , New Feature
+Add OCTResponse.statusCode , New Feature
+Makes the localization bundle load from frameworks. , New Feature
+typo , Fixed
+Fixed erros in the migration Query/ , Fixed
+Added date restrictions through DatePicker directive , Fixed
+- Stubbed out period relationship tests , Unknown
+Don't use Test.xcconfig it's a big troll , Fixed
+Trello icons next to candidate items , New Feature
+console.log removed , Unknown
+- Implemented gapBetween in DTTimePeriod with tests , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Fix typo in parameter documentation , Fixed
+Beautify user-profile view , New Feature
+if mutornadomon is available initialize it , Fixed

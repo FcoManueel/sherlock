@@ -1,248 +1,1000 @@
-https://github.com/raphaelcruzeiro/DateTools
-Completely refactors logic for days ago (2 days ago should not be the same as 48h ago). Includes re-fix of logic for calculating "yesterday". -=- r
-Merge pull request #89 from MaciejWalczynski/swift_constants_support -=- u
-Merge pull request #95 from bapatel1/master -=- u
-Update DateTools.strings -=- n
-Update DateTools.strings -=- n
-Update CREDITS.md -=- n
-Update README.md -=- n
-Merge pull request #88 from DZNS/master -=- u
-Merge pull request #87 from frin/master -=- u
-Merge pull request #90 from m1kachu/patch-1 -=- u
-Update DateTools.strings -=- n
-Update DateTools.strings -=- n
-fix for linker error in a swift project -=- f
-added Hindi & Gujarati localization strings. -=- n
-Merge pull request #1 from MatthewYork/master -=- u
-Update README.md -=- n
-Added Slovenian localization sorted languages by name -=- n
-- Fixed polish translation -=- f
-Merge pull request #82 from michal-olszewski/patch-1 -=- u
-- Updated pod spec -=- n
-Merge pull request #84 from danthorpe/fix_for_unit_test_project -=- u
-Removes the DateTools source from the test project's test bundle. -=- r
-Makes the localization bundle load from frameworks. -=- n
-- Fixing bug that crashes unit tests. Will remove if we can prove it works -=- f
-Merge pull request #72 from yakatak/bug/DT-56_import_bundle_from_framework -=- u
-Fixed Polish translation -=- d
-Merge pull request #53 from mrtj/master -=- u
-Merge pull request #80 from raphaelcruzeiro/master -=- u
-Fixed typo on the pt-PT translations. -=- f
-Merge pull request #78 from ryh/patch-1 -=- u
-Merge pull request #74 from Thanx/master -=- u
-Merge pull request #64 from pzbyszynski/master -=- u
-Merge pull request #61 from waterskier2007/master -=- u
-Merge pull request #77 from tiberius33/master -=- u
-Added Croatian localization -=- n
-update the "week" translation -=- n
-Fix yesterday being 2 days ago. Fixes #47. -=- f
-[DT-56]: Updates the macro to safely locate the localization bundle. -=- n
-- Added date parsing methods -=- n
-updated readme -=- n
-fix for "Compiler error 'unknown type name NSInteger'" (issue #52) -=- f
-- Fixed string equality bug for russian and ukranian language recognition -=- f
-Update DateTools.podspec -=- n
-Update DateTools.podspec -=- n
-Merge pull request #40 from Zhukn1/is_weekend -=- u
-Merge pull request #41 from Zhukn1/master -=- u
-Merge pull request #48 from pzbyszynski/master -=- u
-Merge pull request #49 from dtweston/numeric_times -=- u
-Merge pull request #45 from rocxteady/master -=- u
-Merge pull request #44 from cardinalblue/more_short_format_i18n -=- u
-Add option to force numeric dates -=- n
-- Formatting -=- n
-- Added .NET style date creation methods -=- n
-Short format localization for Turkish -=- n
-Japanese shortFormat localization -=- n
-Traditional Chinese shortFormat localization strings -=- n
-Simplified Chinese shortFormat localization strings -=- n
-changed deprecated call NSWeekdayCalendarUnit to NSCalendarUnitWeekday. -=- f
-s.version.to_s instead of implicit tag number. -=- r
-Update NSDate+DateTools.m -=- n
-Added method to determine if date is a weekend. (Uses current callendar). -=- n
-- Fixed warnings for NSCalendarUnits and NSCalendarIdentifier - Bumped podspec -=- f
-- Added OS X target compatibility to pod -=- n
-- Added cocoapods badge -=- n
-Update DateTools.podspec -=- n
-Merge pull request #36 from waterskier2007/master -=- u
-fix for isLeapYear -=- f
-- Bumped podspec -=- u
-Update CREDITS.md -=- n
-Merge pull request #35 from vrcaciuc/master -=- u
-Update CREDITS.md -=- n
-Merge pull request #34 from fahlout/master -=- u
-Update DateTools.strings -=- n
-Update DateTools.strings -=- n
-Update CREDITS.md -=- n
-Merge pull request #33 from mjanda/master -=- u
-Spanish stortFormat localization strings -=- n
-English stortFormat localization strings -=- n
-Czech stortFormat localization strings -=- n
-Merge pull request #30 from bengotow/master -=- u
-Use -weekOfYear instead of -week to remove iOS 7 deprecation warnings. -=- r
-Update DateTools.podspec -=- n
-Merge pull request #25 from premosystems/master -=- u
-Fixed compiler warnings. -=- f
-Update CREDITS.md -=- n
-Update README.md -=- n
-Merge pull request #24 from Bendihossan/cy -=- u
-Welsh language translations -=- n
-- Added isYesterday method with tests - Fixed isTomorrow test -=- n
-- Added tests for isTomorrow method -=- n
-Merge pull request #23 from Zhukn1/isTomorrow -=- u
-added isTomorrow flag -=- n
-Merge pull request #22 from edpelesh/patch-2 -=- u
-Language-specific rules update -=- n
-Merge pull request #21 from edpelesh/patch-1 -=- u
-Fix ukrainian translation mistakes -=- f
-Merge pull request #20 from qizh/master -=- u
-Localization fix -=- f
-Update README.md -=- n
-Update DateTools.podspec -=- n
-- Unified locales in formatters - Added tests for formatters -=- r
-Merge pull request #13 from cemaleker/master -=- u
-Merge pull request #16 from sendoa/basque-translation -=- u
-Add basque translation -=- n
-Update README.md -=- n
-Updated NSDate+Datetools category to reuse formatter instances. -=- n
-Update README.md -=- n
-Merge pull request #11 from apalancat/master -=- u
-Catalan localization -=- n
-Update README.md -=- n
-Merge pull request #10 from ixnixnixn/master -=- n
-adding credits -=- n
-adding Indonesian localization -=- n
-- Fixed bad resource reference -=- f
-- Updated pod spec to 1.1.0 -=- n
-- Added tests for isToday method -=- n
-Merge pull request #6 from nixonnixon/master -=- u
-Merge pull request #7 from jnutting/master -=- u
-Update README.md -=- n
-Update README.md -=- n
-Merge pull request #8 from MatthewYork/timeago -=- u
-- Added spanish to tests project -=- n
-- Added some time ago tests -=- n
-Add credits file -=- n
-integrate localized NSDate+TimeAgo methods -=- n
-Renamed +defaultCalendar to +defaultCalendarIdentifier and added corresponding setter. Changed internals to use a single implicit NSCalendar instance where none is specified. -=- r
-Updated podspec -=- n
-Added method to check if date is today -=- n
-Add support for ios 6.0 -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Merge pull request #2 from hlfcoding/patch-1 -=- u
-Fix incorrect sample code in readme -=- f
-Update README.md -=- n
-Update README.md -=- n
-Merge pull request #1 from MichMich/master -=- u
-Fix code examples. -=- f
-Update README.md -=- n
-Update README.md -=- n
-- Travis update again -=- n
-- Updated travis file for tests false negatives -=- n
-- Dropped deployment target of tests to 7.0 -=- u
-Travis CI update -=- n
-Update README.md -=- n
-Update README.md -=- n
-- Updated Travis CI file -=- n
-- Added some spacing in tests -=- r
-- Added what hopes to be valid travis file -=- n
-- Added podspec -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-- Fixed some formatting problems in example app -=- f
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-- Added default locale to formatters -=- n
-Update README.md -=- n
-Update README.md -=- n
-- More NSInteger migration -=- r
-- Continued weeding out double -=- u
-- Kept moving to NSInteger from double -=- u
-- Moved some returns to NSInteger from double -=- u
-- Renamed comparison methods for brevity -=- u
-Update README.md -=- n
-- Added default calendar method so one can change the default calendar of DateTools -=- n
-Update README.md -=- n
-- Updated time ago to handle seconds -=- n
-Update README.md -=- n
-- Fixed some little formatting errors -=- f
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-Update README.md -=- n
-- Added licens to lib files -=- n
-- Removed some unused variables -=- r
-- Moved some straggling lib files to there lib folder -=- r
-Update README.md -=- n
-Update README.md -=- n
-- Added DateTools.h to link entire toolset -=- n
-Update README.md -=- n
-- Finished example app -=- n
-- Added custom calendar option to "from" methods -=- n
-- Cleaned up yearsFrom weeksFrom and daysFrom -=- n
-- Added the monthsAgo method. Forgot that one... -=- n
-- Added month handling! With tests too! -=- n
- - Began scaffolding example project -=- u
-- Moved testing classes out of example project and into testing project -=- r
-- Added documentation for shifting methods -=- n
-- Moved shifting to group level for commonality -=- r
-- Added documentation for DTTimePeriodCollection -=- n
-- Added and implemented DTTimePeriodGroupTests -=- n
-- Finished implementing tests for DTTimePeriodCollection -=- n
-- Implemented add/insert/remove test for DTTimePeriodCollection -=- n
-- Implemented test for sorting in DTTimePeriodCollection -=- n
-- Implemented test for equality for DTTimePeriodCollection -=- n
-- Stubbed out tests for DTTimePeriodCollection -=- u
- - Implemented chain and collection equality checks -=- n
-- Added basic error handling in DTTimePeriodCollection class -=- n
-- Implemented period group durations -=- n
-- Finished DTTimePeriod documentation -=- n
-- Finished DTTimePeriod documentation -=- n
-- Finished documentation for DateTools category -=- n
-- Finished documentation for DateTools info add subtract -=- n
-- Implemented gapBetween in DTTimePeriod with tests -=- n
-- Removed bad methods in DateTools for timeAgo -=- f
-- Implemented isMoment with tests -=- n
-- Implemented tests for shorten/lengthen DTTimePeriod -=- n
-- Implemented lengthen/shorten methods in DTTimePeriod -=- n
-- Fixed typo in shift later method name -=- f
-- Implemented DTTimePeriod shift tests -=- n
-- Implemented DTTimePeriod relationship test methods -=- n
-- Implemented test for isSamePeriod -=- n
-- Stubbed out period relationship tests -=- u
-- Cleaned up daysFrom method (Silly it's not a fuzzy value!) -=- r
-- Added daysInYear method -=- n
-- Added DTTimePeriod information tests -=- n
-- Implemented containsDate in DTTimePeriod -=- n
-- Added TimePeriod init/factory methods -=- n
-- Implemented relationToPeriod: -=- n
-- Completed tests for DateTools! -=- n
-- Added test stubs for the rest of the comparison methods -=- n
-- Changed names for clarity -=- r
-- Removed last of millisecond precision -=- f
-- Fixed broken add/subtract methods -=- f
-- Changed "older" to "earlier" and "younger" to "later" to match Apple spec -=-r
-- Added date comparators -=- n
-- Implemented isSamePeriod isInside and overlapsWith -=- n
-- Renamed functions for clarity -=- r
-- Added Time Period information classes -=- n
-- Added formatted dates for convenience -=- n
-- Added older than and younger than comparison methods -=- n
-- Added date editing methods -=- n
-- Added DTTimePeriod with some scaffolding -=- n
-Initial commit -=- n
+Completely refactors logic for days ago (2 days ago should not be the same as 48h ago). Includes re-fix of logic for calculating "yesterday". , Refactor
+Merge pull request #89 from MaciejWalczynski/swift_constants_support , Unknown
+Merge pull request #95 from bapatel1/master , Unknown
+Update DateTools.strings , New Feature
+Update DateTools.strings , New Feature
+Update CREDITS.md , New Feature
+Update README.md , New Feature
+Merge pull request #88 from DZNS/master , Unknown
+Merge pull request #87 from frin/master , Unknown
+Merge pull request #90 from m1kachu/patch-1 , Unknown
+Update DateTools.strings , New Feature
+Update DateTools.strings , New Feature
+fix for linker error in a swift project , Fixed
+added Hindi & Gujarati localization strings. , New Feature
+Merge pull request #1 from MatthewYork/master , Unknown
+Update README.md , New Feature
+Added Slovenian localization sorted languages by name , New Feature
+- Fixed polish translation , Fixed
+Merge pull request #82 from michal-olszewski/patch-1 , Unknown
+- Updated pod spec , New Feature
+Merge pull request #84 from danthorpe/fix_for_unit_test_project , Unknown
+Removes the DateTools source from the test project's test bundle. , Refactor
+Makes the localization bundle load from frameworks. , New Feature
+- Fixing bug that crashes unit tests. Will remove if we can prove it works , Fixed
+Merge pull request #72 from yakatak/bug/DT-56_import_bundle_from_framework , Unknown
+Fixed Polish translation , Unknown
+Merge pull request #53 from mrtj/master , Unknown
+Merge pull request #80 from raphaelcruzeiro/master , Unknown
+Fixed typo on the pt-PT translations. , Fixed
+Merge pull request #78 from ryh/patch-1 , Unknown
+Merge pull request #74 from Thanx/master , Unknown
+Merge pull request #64 from pzbyszynski/master , Unknown
+Merge pull request #61 from waterskier2007/master , Unknown
+Merge pull request #77 from tiberius33/master , Unknown
+Added Croatian localization , New Feature
+update the "week" translation , New Feature
+Fix yesterday being 2 days ago. Fixes #47. , Fixed
+[DT-56]: Updates the macro to safely locate the localization bundle. , New Feature
+- Added date parsing methods , New Feature
+updated readme , New Feature
+fix for "Compiler error 'unknown type name NSInteger'" (issue #52) , Fixed
+- Fixed string equality bug for russian and ukranian language recognition , Fixed
+Update DateTools.podspec , New Feature
+Update DateTools.podspec , New Feature
+Merge pull request #40 from Zhukn1/is_weekend , Unknown
+Merge pull request #41 from Zhukn1/master , Unknown
+Merge pull request #48 from pzbyszynski/master , Unknown
+Merge pull request #49 from dtweston/numeric_times , Unknown
+Merge pull request #45 from rocxteady/master , Unknown
+Merge pull request #44 from cardinalblue/more_short_format_i18n , Unknown
+Add option to force numeric dates , New Feature
+- Formatting , New Feature
+- Added .NET style date creation methods , New Feature
+Short format localization for Turkish , New Feature
+Japanese shortFormat localization , New Feature
+Traditional Chinese shortFormat localization strings , New Feature
+Simplified Chinese shortFormat localization strings , New Feature
+changed deprecated call NSWeekdayCalendarUnit to NSCalendarUnitWeekday. , Fixed
+s.version.to_s instead of implicit tag number. , Refactor
+Update NSDate+DateTools.m , New Feature
+Added method to determine if date is a weekend. (Uses current callendar). , New Feature
+- Fixed warnings for NSCalendarUnits and NSCalendarIdentifier - Bumped podspec , Fixed
+- Added OS X target compatibility to pod , New Feature
+- Added cocoapods badge , New Feature
+Update DateTools.podspec , New Feature
+Merge pull request #36 from waterskier2007/master , Unknown
+fix for isLeapYear , Fixed
+- Bumped podspec , Unknown
+Update CREDITS.md , New Feature
+Merge pull request #35 from vrcaciuc/master , Unknown
+Update CREDITS.md , New Feature
+Merge pull request #34 from fahlout/master , Unknown
+Update DateTools.strings , New Feature
+Update DateTools.strings , New Feature
+Update CREDITS.md , New Feature
+Merge pull request #33 from mjanda/master , Unknown
+Spanish stortFormat localization strings , New Feature
+English stortFormat localization strings , New Feature
+Czech stortFormat localization strings , New Feature
+Merge pull request #30 from bengotow/master , Unknown
+Use -weekOfYear instead of -week to remove iOS 7 deprecation warnings. , Refactor
+Update DateTools.podspec , New Feature
+Merge pull request #25 from premosystems/master , Unknown
+Fixed compiler warnings. , Fixed
+Update CREDITS.md , New Feature
+Update README.md , New Feature
+Merge pull request #24 from Bendihossan/cy , Unknown
+Welsh language translations , New Feature
+- Added isYesterday method with tests - Fixed isTomorrow test , New Feature
+- Added tests for isTomorrow method , New Feature
+Merge pull request #23 from Zhukn1/isTomorrow , Unknown
+added isTomorrow flag , New Feature
+Merge pull request #22 from edpelesh/patch-2 , Unknown
+Language-specific rules update , New Feature
+Merge pull request #21 from edpelesh/patch-1 , Unknown
+Fix ukrainian translation mistakes , Fixed
+Merge pull request #20 from qizh/master , Unknown
+Localization fix , Fixed
+Update README.md , New Feature
+Update DateTools.podspec , New Feature
+- Unified locales in formatters - Added tests for formatters , Refactor
+Merge pull request #13 from cemaleker/master , Unknown
+Merge pull request #16 from sendoa/basque-translation , Unknown
+Add basque translation , New Feature
+Update README.md , New Feature
+Updated NSDate+Datetools category to reuse formatter instances. , New Feature
+Update README.md , New Feature
+Merge pull request #11 from apalancat/master , Unknown
+Catalan localization , New Feature
+Update README.md , New Feature
+Merge pull request #10 from ixnixnixn/master , New Feature
+adding credits , New Feature
+adding Indonesian localization , New Feature
+- Fixed bad resource reference , Fixed
+- Updated pod spec to 1.1.0 , New Feature
+- Added tests for isToday method , New Feature
+Merge pull request #6 from nixonnixon/master , Unknown
+Merge pull request #7 from jnutting/master , Unknown
+Update README.md , New Feature
+Update README.md , New Feature
+Merge pull request #8 from MatthewYork/timeago , Unknown
+- Added spanish to tests project , New Feature
+- Added some time ago tests , New Feature
+Add credits file , New Feature
+integrate localized NSDate+TimeAgo methods , New Feature
+Renamed +defaultCalendar to +defaultCalendarIdentifier and added corresponding setter. Changed internals to use a single implicit NSCalendar instance where none is specified. , Refactor
+Updated podspec , New Feature
+Added method to check if date is today , New Feature
+Add support for ios 6.0 , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Merge pull request #2 from hlfcoding/patch-1 , Unknown
+Fix incorrect sample code in readme , Fixed
+Update README.md , New Feature
+Update README.md , New Feature
+Merge pull request #1 from MichMich/master , Unknown
+Fix code examples. , Fixed
+Update README.md , New Feature
+Update README.md , New Feature
+- Travis update again , New Feature
+- Updated travis file for tests false negatives , New Feature
+- Dropped deployment target of tests to 7.0 , Unknown
+Travis CI update , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+- Updated Travis CI file , New Feature
+- Added some spacing in tests , Refactor
+- Added what hopes to be valid travis file , New Feature
+- Added podspec , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+- Fixed some formatting problems in example app , Fixed
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+- Added default locale to formatters , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+- More NSInteger migration , Refactor
+- Continued weeding out double , Unknown
+- Kept moving to NSInteger from double , Unknown
+- Moved some returns to NSInteger from double , Unknown
+- Renamed comparison methods for brevity , Unknown
+Update README.md , New Feature
+- Added default calendar method so one can change the default calendar of DateTools , New Feature
+Update README.md , New Feature
+- Updated time ago to handle seconds , New Feature
+Update README.md , New Feature
+- Fixed some little formatting errors , Fixed
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+Update README.md , New Feature
+- Added licens to lib files , New Feature
+- Removed some unused variables , Refactor
+- Moved some straggling lib files to there lib folder , Refactor
+Update README.md , New Feature
+Update README.md , New Feature
+- Added DateTools.h to link entire toolset , New Feature
+Update README.md , New Feature
+- Finished example app , New Feature
+- Added custom calendar option to "from" methods , New Feature
+- Cleaned up yearsFrom weeksFrom and daysFrom , New Feature
+- Added the monthsAgo method. Forgot that one... , New Feature
+- Added month handling! With tests too! , New Feature
+ - Began scaffolding example project , Unknown
+- Moved testing classes out of example project and into testing project , Refactor
+- Added documentation for shifting methods , New Feature
+- Moved shifting to group level for commonality , Refactor
+- Added documentation for DTTimePeriodCollection , New Feature
+- Added and implemented DTTimePeriodGroupTests , New Feature
+- Finished implementing tests for DTTimePeriodCollection , New Feature
+- Implemented add/insert/remove test for DTTimePeriodCollection , New Feature
+- Implemented test for sorting in DTTimePeriodCollection , New Feature
+- Implemented test for equality for DTTimePeriodCollection , New Feature
+- Stubbed out tests for DTTimePeriodCollection , Unknown
+ - Implemented chain and collection equality checks , New Feature
+- Added basic error handling in DTTimePeriodCollection class , New Feature
+- Implemented period group durations , New Feature
+- Finished DTTimePeriod documentation , New Feature
+- Finished DTTimePeriod documentation , New Feature
+- Finished documentation for DateTools category , New Feature
+- Finished documentation for DateTools info add subtract , New Feature
+- Implemented gapBetween in DTTimePeriod with tests , New Feature
+- Removed bad methods in DateTools for timeAgo , Fixed
+- Implemented isMoment with tests , New Feature
+- Implemented tests for shorten/lengthen DTTimePeriod , New Feature
+- Implemented lengthen/shorten methods in DTTimePeriod , New Feature
+- Fixed typo in shift later method name , Fixed
+- Implemented DTTimePeriod shift tests , New Feature
+- Implemented DTTimePeriod relationship test methods , New Feature
+- Implemented test for isSamePeriod , New Feature
+- Stubbed out period relationship tests , Unknown
+- Cleaned up daysFrom method (Silly it's not a fuzzy value!) , Refactor
+- Added daysInYear method , New Feature
+- Added DTTimePeriod information tests , New Feature
+- Implemented containsDate in DTTimePeriod , New Feature
+- Added TimePeriod init/factory methods , New Feature
+- Implemented relationToPeriod: , New Feature
+- Completed tests for DateTools! , New Feature
+- Added test stubs for the rest of the comparison methods , New Feature
+- Changed names for clarity , Refactor
+- Removed last of millisecond precision , Fixed
+- Fixed broken add/subtract methods , Fixed
+- Changed "older" to "earlier" and "younger" to "later" to match Apple spec , Refactor
+- Added date comparators , New Feature
+- Implemented isSamePeriod isInside and overlapsWith , New Feature
+- Renamed functions for clarity , Refactor
+- Added Time Period information classes , New Feature
+- Added formatted dates for convenience , New Feature
+- Added older than and younger than comparison methods , New Feature
+- Added date editing methods , New Feature
+- Added DTTimePeriod with some scaffolding , New Feature
+Initial commit , New Feature
+Merge pull request #29 from uber/version , Unknown
+bump version , Unknown
+Merge pull request #28 from uber/redis_sentinel_info , Unknown
+close stream for Tornado 4 , Unknown
+increased hacheck version , Unknown
+fix tests , Fixed
+fix test error , Fixed
+Get INFO commands from Redis and Redis-Sentinel , Unknown
+Merge pull request #27 from uber/T130135-endpoint , Unknown
+Fix tests for python3 , Fixed
+Fix lint , Fixed
+Remove logging check code instead of message , Refactor
+Add tests , New Feature
+Add haproxy checker , New Feature
+Merge pull request #22 from c-buisson/redis_support , Unknown
+Implemented better Tornado version check with regex , Refactor
+Added support for Redis Sentinel Fixed checker.py to support Tornado v3 and v4 Bump version to 0.10.0 , New Feature
+Fix test_checker.py , Fixed
+Redis support for hacheck * This code was written by James Brown (See PR #9) * hacheck/checker.py was updated from jbrown's PR. , New Feature
+bump to v0.9.0 , Unknown
+add to readme , New Feature
+add a test for /status/count endpoint , New Feature
+fix tests , Fixed
+Merge branch 'count' , Unknown
+Merge branch 'travis_matrix' , Unknown
+Merge branch 'multi' , Unknown
+better errors on wrong args , Refactor
+allow passing multiple service_names to haup/hadown/hastatus , New Feature
+call out that I do not need sudo and use the LXC builders instead of the VM builders , Refactor
+add branch filter , New Feature
+build against four tornado versions , Unknown
+better py26 , Refactor
+py2.6 , New Feature
+Merge branch 'safe_load' , Unknown
+add an endpoint which returns the number of accesses since last startup by service by ip , New Feature
+use yaml.safe_load instead of yaml.load , Refactor
+Bump version to v0.8.0 , Unknown
+Merge branch 'allow_4_1' , Unknown
+Merge branch 'haupdown_last_response' , Unknown
+Allow hacheck to require Tornado 4.1 , New Feature
+py3 fixes , Fixed
+fix tests , Fixed
+show the last response in "haupdown -a list" , New Feature
+add a symlink for README so that sdist doesn't whine , New Feature
+bump version to 0.7.0 , Unknown
+add Python 3.4 to trove classifiers , New Feature
+stop collector , Unknown
+bump readme , Unknown
+if mutornadomon is available initialize it , Fixed
+Merge pull request #14 from uber/rlimit , Unknown
+fix to pass the tuple always and add a unit test , Fixed
+teach hacheck to set rlimits , New Feature
+bump to 0.6.1 , Unknown
+Merge branch 'log_less' , Unknown
+better handle TCP checks where the connection is refused (don't wait for timeout) , Refactor
+log requests in hacheck at loglevel INFO instead of WARNING , Refactor
+bump to 0.6.0 , Unknown
+Merge branch 'pass_headers' , Unknown
+Merge branch 'multiple_ports' , Unknown
+allow hacheck to bind to multiple ports to spread load around a little bit , Fixed
+get rid of aliasing in hacheck/handlers.py , Fixed
+pass through the Host header on httpchk requests , New Feature
+bump version to v0.5.3 , Unknown
+modify test to handle autofill of --reason , Fixed
+pw_name not pw_nam , Refactor
+use newer fancier complainier print , Refactor
+hadown autofill --reason with SUDO_USER or SSH_USER if not specified and error if username found in /etc/nonhumans , New Feature
+fix tests , Fixed
+bump to 0.5.2 , Unknown
+we require six >= 1.4.0 , New Feature
+do not try to frob spools if not absolutely necessary , Fixed
+bump to version 0.5.1 , Unknown
+clean up a little bit , Refactor
+rename status_all to status_downed , Refactor
+run tests on 3.4 , Fixed
+fix python3.3 python3.4 and tornado 4.x support , Fixed
+add a new http endpoint /recent to show recently-queried services and a new entry point (halist) to print that data , New Feature
+bump version to 0.5.0 , Unknown
+update README more , New Feature
+update README , New Feature
+fix python 3.x compat , Fixed
+some basic unit tests , New Feature
+fix tests , Fixed
+Initial support of mysql as a check protocol , New Feature
+style , New Feature
+do I even know how to markdown , Refactor
+update README and TODO , New Feature
+bump version to 0.4.3 , Unknown
+trailing comma , Fixed
+switch to using WatchedFileHandler , New Feature
+bump version to 0.4.2 , Unknown
+support logging to a file if provided in the config , New Feature
+bump version to 0.4.1 , Unknown
+pass through query parameters , New Feature
+bump version to 0.4.0 , Unknown
+Merge branch 'app_name_header' , Unknown
+optionally send service name as a header , New Feature
+fix a minor style thing , Fixed
+bump version to 0.3.3 and update README , Unknown
+python2.6 support , New Feature
+make setup.py parse requirements.txt using pip.req , New Feature
+bump version , Unknown
+add MANIFEST.in , New Feature
+bump version to 0.3.1 , Unknown
+Add support for python 3.2/3.3 , New Feature
+remove 2.6 build from travis config , Refactor
+play with setting up travis , Unknown
+add support for python 3 , New Feature
+Version -> 0.3 , Unknown
+Relicense under the MIT license , Unknown
+bump version , Unknown
+change requirements to allow using newer tornado , New Feature
+relicense hacheck under the MIT license , Unknown
+be explicit about exit code , Refactor
+bump version , Unknown
+handle weird exit codes better , Refactor
+add status_all command and associated tests , New Feature
+bump version , Unknown
+prettier output when downed without reason , Refactor
+fix io_loop usage , Fixed
+don't require write access for the master process , Fixed
+typo , Fixed
+Add entry point for main , New Feature
+don't bother including tests... , Unknown
+update README bump version , New Feature
+add an end-to-end integration test type thing , New Feature
+update docs a bit , New Feature
+move scripts into setuptools magic; more tests , Refactor
+100% coverage what-what , Unknown
+more unit test/s , New Feature
+tests for checkers , New Feature
+add TCP checks more tests , New Feature
+split checker into its own module , Refactor
+command-line scripts setup.py , New Feature
+Initial commit , New Feature
+Merge pull request #267 from leichunfeng/search-repositories , Unknown
+Change parameter asc to ascending. , Refactor
+Change parameter sort -> orderBy order -> asc. , Refactor
+Fix code style Change strong to copy. , Fixed
+Merge branch 'octokit-master' into search-repositories , Unknown
+Add comments. , New Feature
+Add property ownerAvatarURL. , New Feature
+Merge pull request #263 from leichunfeng/octclient-activity-fix-bug , Unknown
+Leave out the return type. , Refactor
+Fix bug. , Fixed
+Add HTTP Header `application/vnd.github.v3.text-match+json`. , New Feature
+Merge pull request #262 from leichunfeng/create-issues , Unknown
+Modify fetchAllPages parameter to NO. , Fixed
+Add search repositories method. , New Feature
+Change the type of milestone parameter to NSNumber. , Fixed
+Merge pull request #255 from GroundControl-Solutions/gist-edit-fix , Unknown
+Encode "publicGist" field of gist edit with boolean value transformer (fixes #254) , Fixed
+Merge pull request #253 from RuiAAPeres/master , Unknown
+Merge branch 'master' of https://github.com/octokit/octokit.objc into octokit-master , Unknown
+Made the headers public , Fixed
+Merge pull request #250 from leichunfeng/octclient-issues , Unknown
+Update OctoKit.h , New Feature
+Update OCTClient+Watching.m , New Feature
+Update OCTClient+Watching.h , New Feature
+Added the ability to stop watching a repository , New Feature
+Use triple /s replace double /s. , Fixed
+Modify the type of `milestone` parameter from NSNumber to NSUInteger. , Fixed
+Merge pull request #249 from leichunfeng/perfect-date-jsontransformer , Unknown
+Adjust code style. , Fixed
+Complete date JSONTransformer. , Fixed
+Add new class `OCTClient+Issues`. , New Feature
+Merge pull request #240 from octokit/moondragon , Unknown
+M I R A G E , Unknown
+Re-add mirage-preview. , New Feature
+Accept moondragon. , New Feature
+:fire: mirage-preview , New Feature
+JK , Unknown
+Use the new user repositories API. , New Feature
+Use the new user orgs API. , New Feature
+Document where Moondragon is coming from. , New Feature
+Centralize the base content type. , Refactor
+Opt-in to moondragon. , New Feature
+Merge pull request #237 from leichunfeng/add-method-to-octclient+octrepository , Unknown
+Fix the indentation - step3. , Refactor
+Fix the indentation - step2. , Refactor
+Fix the indentation - step1. , Refactor
+Add `-fetchRepositoryReadme:reference:` method to `OCTClient+Repositories` category. , New Feature
+Merge pull request #236 from leichunfeng/add-property-to-octrepository , Unknown
+Perfect `OCTRepositorySpec.m`. , Unknown
+Add `subscribersCount` property to `OCTRepository`. , New Feature
+Merge pull request #235 from leichunfeng/fetch-all-references , Unknown
+Add method `-fetchAllReferencesInRepository:` to `OCTClient+Git`. , New Feature
+Merge pull request #232 from octokit/bump-afnetworking , Unknown
+++AFNetworking , Unknown
+++AFNetworking , Unknown
+Merge pull request #231 from octokit/papi-pacify , Unknown
+LOLOK , Unknown
+Merge pull request #230 from octokit/pacify-xcode , Unknown
+OK Computer , Unknown
+++xcconfigs , Unknown
+Merge pull request #229 from leichunfeng/add-properties-to-octrepository , Unknown
+Add some missing properties to OCTRepository. , Fixed
+Merge pull request #228 from leichunfeng/add-properties-to-octentity , Unknown
+Add 	`publicGistCount` and `privateGistCount` property mapping. , New Feature
+Add some missing properties to OCTEntity. , Fixed
+Merge pull request #227 from octokit/set-nested-repo-server , Unknown
+Test it. , Unknown
+The nested repository has the same server as the PR. , Fixed
+Merge pull request #226 from rastersize/swift-compatible-enums , Unknown
+Change OCTTreeEntry to use NS_ENUM , Fixed
+Change OCTRefEvent to use NS_ENUM , Fixed
+Change OCTPullRequest to use NS_ENUM , Fixed
+Change OCTNotification to use NS_ENUM , Fixed
+Change OCTMemberEvent to use NS_ENUM , Fixed
+Change OCTIssueEvent to use NS_ENUM , Fixed
+Change OCTClient to use NS_ENUM and NS_OPTIONS , Fixed
+Change OCTClient+Git to use NS_ENUM , Fixed
+Merge pull request #225 from AquaGeek/avatar-url , Unknown
+Parse the actor's avatar URL in events , New Feature
+Merge pull request #224 from AquaGeek/more-events , Unknown
+Add a high-level description for each new event class , New Feature
+Use -mtl_valueMappingTransformerWithDictionary: , New Feature
+Rename memberName => memberLogin , Refactor
+Rename forkeeRepositoryName => forkedRepositoryName , Refactor
+Merge pull request #223 from octokit/carthage-0.5 , Unknown
+Add support for WatchEvent , New Feature
+Add support for PublicEvent , New Feature
+Add support for MemberEvent , New Feature
+Add support for ForkEvent , New Feature
+Bump Cartfile , Unknown
+Fix EXTKeyPathCoding.h import , Fixed
+Fix checkouts path for OctoKitDependencies too , Fixed
+Use a Cartfile.private loosen version constraints , Unknown
+Update to Carthage 0.5 directory structure , Fixed
+Merge pull request #221 from octokit/authorizations-updates , Unknown
+Merge remote-tracking branch 'octokit/master' , Unknown
+Merge pull request #218 from octokit/cartfile , Unknown
+Update to new Quick spec format , Fixed
+Use Carthage for managing submodules , New Feature
+Merge remote-tracking branch 'octokit/master' , Unknown
+Merge pull request #217 from octokit/relative-paths , Unknown
+#noprefix , Unknown
+Use relative paths so we don't lose the Enterprise API prefix. , Refactor
+++Quick , Unknown
+++Nimble , Unknown
+++Nimble , Unknown
+Xcode lulz , Unknown
+Merge pull request #7 from github/upgrade-quick , Unknown
+Use new shared examples format , New Feature
+Fix reference to Quick project , Fixed
+++Mantle , New Feature
+Merge pull request #214 from skylar/osx-headers-public , Unknown
+export all framework headers referenced in OctoKit.h for OSX , New Feature
+Fix visibility of some headers , Fixed
+Merge remote-tracking branch 'octokit/master' , Unknown
+Merge pull request #190 from octokit/xcode6 , Unknown
+Copy more dependencies into iOS test target , New Feature
+++xcconfigs , Unknown
+Revert "Fuck xctool" , Unknown
+Fuck xctool , Unknown
+Don't warn about deprecations in ISO8601Bromatter , Fixed
+Copy iOS frameworks into test target , New Feature
+Only build OctoKit schemes on CI , Fixed
+Update to jspahrsummers/objc-build-scripts@a54782 , Fixed
+Fix iOS tests , Fixed
+s/beAnInstanceOf/beAKindOf/ , Unknown
+Fix running unit tests add specs to iOS test too , Fixed
+More test fixes now building successfully , Fixed
+More expectation find-and-replacing , New Feature
+no but rly , Unknown
+More test updates import OHHTTPStubs properly , Fixed
+WIP migrate to Nimble expectation format , New Feature
+WIP migrate to Quick spec format , New Feature
+Don't use Test.xcconfig it's a big troll , Fixed
+Fix test imports , Fixed
+Import Nimble and Quick in test targets , New Feature
+More configuration fixes , Fixed
+Recreate OctoKit iOS as a framework , New Feature
+Fix everything about OctoKitDependencies' targets , Fixed
+Import SystemConfiguration before AFNetworking , New Feature
+:fire: Prefix headers , Unknown
+Re-link RAC and Mantle bump OS X target , Unknown
+Fix xcconfig references remove some dead refs , Fixed
+++Mantle and ++RAC , Unknown
+Merge branch 'master' into xcode6 , Unknown
+Merge branch 'master' into upstream-master , Unknown
+Merge pull request #210 from octokit/more-error-info , Unknown
+Include some examples to bring out the difference. , New Feature
+Merge pull request #6 from github/only-revoke-missing-tokens , Unknown
+Include more error info in client errors. , New Feature
+Clarify when we won't receive a token from the API , Refactor
+Use an empty string for the token stub , Fixed
+Only delete authorization if its token is gone , Fixed
+Merge pull request #5 from github/new-authorizations-api , Unknown
+Fix typo in parameter documentation , Fixed
+Remove accidental logging left in , Fixed
+Fix preview Content-Type , Fixed
+Accept mirage-preview for /authorizations , Unknown
+Delete any existing authorization upon HTTP 200 , Fixed
+Handle nil response objects (e.g. on HTTP 204) , Fixed
+Add OCTResponse.statusCode , New Feature
+Failing test for deleting existing authorizations , Fixed
+Refactor stubbing blocks to make status codes easy , Refactor
+Return to the PUT API with extra fields , Unknown
+Switch to POST /authorizations for sign in , Refactor
+Merge pull request #209 from octokit/parse-pr-branches , Unknown
+Tests. , Unknown
+Parse the head and base branches. , Unknown
+Merge pull request #208 from octokit/parse-fork-info , Unknown
+Bleh. , Unknown
+Test it. , Unknown
+Parse fork sources and parents. , Unknown
+Merge pull request #207 from octokit/pin-to-dont-cancel-authentication-requests , Unknown
+++AFNetworking , Unknown
+Add a new code for secure connection errors , New Feature
+++AFNetworking , Unknown
+Redirect AFNetworking to GitHub fork , Unknown
+Merge pull request #206 from octokit/create-pr , Unknown
+s/base/baseBranch s/head/headBranch , Unknown
+s/spaces/tabs , Unknown
+Added -createPullRequest... , New Feature
+Merge pull request #205 from TomLiu/readme , Unknown
+Fix OctoKit pod spec url , Fixed
+++OHHTTPStubs , Unknown
+Merge pull request #204 from octokit/more-like-wtf-stubs , Unknown
+++OHHTTPStubs , Unknown
+++OHHTTPStubs , Unknown
+Merge pull request #202 from octokit/jspahrsummers-patch-1 , Unknown
+Fix libraries to link per platform , Fixed
+Merge pull request #198 from JeffScaturro/PullRequestsOnRepo , Unknown
+Class name change in documentation. , Refactor
+Responding to feedback issues to pull requests. , Fixed
+Add three methods to fetch pull request(s). , New Feature
+Change AFNetworking origin , Fixed
+Pin AFNetworking to https://github.com/keithduncan/AFNetworking/commit/5291311e1e64ea861dc1d339f1dd3ce0465f4a0f , Fixed
+Merge pull request #196 from barrettclark/master , Unknown
+Add language from repository response to parsed OCTRepository object , New Feature
+Merge pull request #195 from Dshankar/create-blob-optional-encoding , Unknown
+removed default encoding , Fixed
+minor fix to conform to GH Style Guide , Fixed
+added OCTContentEncoding enum fixed spacing , New Feature
+Added 'daemons' for when we're in prod added delayed_jobs info to read me , New Feature
+Delayed job is created on starting test that will end_test in 1 hour , New Feature
+Watering from rc-1.3.0 , Unknown
+Merge pull request #64 from Nearsoft/remove-comments , Unknown
+Correctly preserving user answers and test countdown. , Refactor
+Selecting an answer sends out a request for that answer to be saved. Time started finished and date_taken determined in back end now. , Refactor
+refactor candidate item directive , Refactor
+refactor add candidate directive , Refactor
+declare functions instead of use anonym functions , Refactor
+refactor login controller , Refactor
+refactor interview form controller and use inject , Refactor
+refactor interview controller , Refactor
+refactor home controller , Refactor
+refactor home controller , Refactor
+refactor candidate and candidate info , Refactor
+remove wiki comments , Refactor
+Merge pull request #63 from Nearsoft/update-candidate-list-when-creating-a-new-candidate-and-set-it-to-the-top-of-the-list , Unknown
+Changed == to === and parseint the localstorage get result. , Refactor
+Merge pull request #62 from Nearsoft/add-candidate-refactor , Refactor
+Added new application controller filter for data only accessible if it's data of @current_user , Refactor
+Refactored candidatelist directive If the candidate has to have an assigned logic test we set the status manually on creation. We MUST change this and look for a better way instead of broadcasting the assign_logic event. , Refactor
+When candidate is created a new event is sent through the app. Candidate list controller catches the event and fill the candidates list with the new data. Refactor on candidate list controller (some code order and deleted some unused vars). , Refactor
+Refactoring logic test.js added start_test and end_test endpoints , Refactor
+Added delayed_job gem , New Feature
+Added id primary key for user_test_answers , Refactor
+AddCandidateOrganizer handles candidate creation now , Refactor
+Added AddCandidate Organizer , Refactor
+V1.2.0 merge , Unknown
+Uncommented user mailer calls. , Refactor
+Update README.md , Unknown
+Changed timeout to 25 seconds to allow for unusually slow db port exposure. , Refactor
+Renamed docker-compose for different environments , New Feature
+dc.dev functions properly added latest schema , New Feature
+Merge with rc1.2.0-alternate , Unknown
+V 1.2.0 , Unknown
+Merge branch 'master' of https://github.com/nearsoft/pipeline , Unknown
+User referrer column added , New Feature
+Development application configurations , New Feature
+Fixed bug where interviews where never graded as complete , Fixed
+Added interviewer users accounts for nearsoft emails as far as current eci is concerned , New Feature
+Smaller margins in candidate interview details box , Fixed
+Tech & Cult score hidden if english interview , New Feature
+Jump from Candidate view to interviews and interview feedbacks , New Feature
+Editing candidate info from candidate view now available. , New Feature
+Board id , Unknown
+Trello cards are archived until English Interview Matt and relevant recruiter are added as members. , New Feature
+Interview assigned buttons now redirect to that users last interview assigned view , New Feature
+Added interview view as an intermediate step to give out interview feedback. , New Feature
+Added assigned_at field to interviews. Date is not being used anymore the view reflects these change in requirements. , New Feature
+Email copy update , Refactor
+modified:   pipeline-app/app/images/trello2.png , Unknown
+Fixed bug where all spaces where consumed from each skill added to a candidate , Fixed
+Fixed bug that didn't allow for adding a candidate with a skill not already in the DB , Fixed
+Fixed bug where assigning an interview from having failed it would yield an interview with null type. , Fixed
+Removed interview and logic test assignment candidate emails. , Unknown
+Status filter unavailable to candidates , Fixed
+Skills properly displayed in this copy. , Fixed
+LT recruiters email includes the candidates key skills. , New Feature
+Added candidate filter based on their current status , New Feature
+Name Last Name Email read as comma sepparated values clicking Home clears search history. If there's something on the storage navbars will always show it , New Feature
+Show mine now properly working and its easier to distinguish which one is clicked on , New Feature
+Caps should have no effect on skills searches anymore. Skills are now separated by commas '' you can now search for Ruby On Rails , Fixed
+Assigning another process ocurrs immediatly after you click accept / assign lt if there is trouble you are notified after the server responds. , Refactor
+Added Home button to navigation bar , New Feature
+Fixed bug where candidates kept their unencrypted password and could not log in , Fixed
+Candidates whose email is already in the system are not added. , New Feature
+Search bar changes. Branch set up for local testing before hotfix. , Fixed
+Wrong mail for recruitment hotfix. Include recruiter name in email hotfix. , Fixed
+Logic test pending on Chrome hotfix , Fixed
+Mails being sent based on environment , New Feature
+Reload page on failure to check candidate status for logic test assignment , Fixed
+Fixed error when seeding candidate profile , Fixed
+Changes to LT results email for recruitment team , Refactor
+User Mails not sent on development. , Fixed
+README updates , Unknown
+deploy scripts modified to take advantage of new docker-compose. , Refactor
+Added varying compose files. , New Feature
+Docker-compose environment overriding , New Feature
+Modified seeds to add candidate account and interviewer account. Removed seed database. , Refactor
+Added different credentials depending on environment , New Feature
+Added Trello configuration into its own initializer. Corrected interactors to accomodate this change , New Feature
+Fixed bug were removed candidates would still show up in queries , Fixed
+Fixed bug not sending interviewer mail , Fixed
+Latest merge for production , Unknown
+Fixed duplicate interview feedback bug , Fixed
+Merge branch 'lt-auto-assign' of https://github.com/nearsoft/pipeline into rc1.1.0 , Unknown
+Dockerfile modified for deployment , Refactor
+Slight change to deploy script (stops web container not all containers) , Refactor
+User Mailer using environment base_url variable , Refactor
+app.yml modifications , Refactor
+Deployment preparations , Unknown
+Merge pull request #60 from Nearsoft/rc1.1.0 , Unknown
+Modified filter to handle multiple words , New Feature
+Merge pull request #59 from Nearsoft/null-candidate-status-bugfix , Unknown
+Current schema , Unknown
+Front end handling , Unknown
+Migration , New Feature
+Fixed bug when calculating new status when passing a profile interview; , Fixed
+Merge pull request #56 from Nearsoft/trello-gem-spike , Unknown
+Added flag to add candidate for auto-assigning logic test to people. , New Feature
+Merge pull request #54 from Nearsoft/Show-Mine-All-Frontend-Implementation , Unknown
+Trello icons next to candidate items , New Feature
+Recruiter on charge is added to the comments on new card trellification. Removed retry that was causing duplicate comments. , New Feature
+Fixed migrations and typo on trellifier comments , Fixed
+Fixed status for people with pending test who've already been assigned. , Fixed
+Bold and slanting comments , New Feature
+Trello button links to card + odds and ends here and ther , New Feature
+TrelloCardCreateOrganizer triggers on creating a candidate , New Feature
+Add LT related comments to Trello integration , New Feature
+Include key skills in Trello card name , New Feature
+When re-creating deleted cards don't skip last comment , Fixed
+Fix message on Trello update when recruiter change , Fixed
+Trello notification on LT finish for a candidate , New Feature
+Trello notification on changing candidates recruiter now working properly , New Feature
+Fixed syntax error on user model. Added Trellifier attempt when updating user , Fixed
+Trellify on every action. Trellify non-existing users. Trellify archived cards , New Feature
+Trellify every action , New Feature
+Implemented auto-trello card creator using recruitment@nearsoft.com. We no longer need front end trello auth , New Feature
+Accidentally deleted urlaccess control service instead of trelloservice. , Unknown
+Straggler from last commit , Unknown
+Added default trello credentials and removed all trello logic from front end , Refactor
+Removed binding.prys , Unknown
+Updating a trello card with new information. , New Feature
+Renamed organizer to cleaerly handle card creation only. , Refactor
+Redirecting from routing error , New Feature
+Trello card creation. Inserting all relevant candidate data. , New Feature
+Watering from trello , Unknown
+Updated read me with new grunt instructions. , Refactor
+Merge pull request #55 from Nearsoft/watcher , Unknown
+Modified lightbuild to trigger on modifications of any file in pipeline-app , New Feature
+created the watch:lightBuild grunt task , New Feature
+Fixing errors , Fixed
+AddNewCandidateCard function on TrelloService still having issues conifugring board writing permissions , New Feature
+WIP interview easy access , New Feature
+Add more endpoints to API wrapper , New Feature
+Add Trello authorization api wrapper & get recruitment board , New Feature
+UserMailer disabled , Unknown
+rc1.1.0 init , Unknown
+Merged rc1.0.0 ready for deployment , Unknown
+Fixed shell account creation , Fixed
+Fixed bug where you're unable add interviewers whoese email are not in the system. , Fixed
+Changed English Interview scoring system and messages , Refactor
+Ignoring dockerfiles , Unknown
+Pristine master setup , Unknown
+Merge branch 'rc1.0.0' of https://github.com/nearsoft/pipeline , Unknown
+db:seed not part of docker-compose up for master. , Refactor
+Left out credentials and docker configs from .gitignore , Unknown
+Removing credentials , Unknown
+fixed untracked files , Fixed
+Fixed bug with JWT secret env variable as well as not_candidate middleware function bug , Fixed
+Development docker configurations , Unknown
+Not sending emails , Unknown
+JWT_SECRET env variable added , New Feature
+Role verification for sensistive endpoints , New Feature
+security hole , Fixed
+Returns :pending if not all graded , Fixed
+Added option to show all candidates o just the ones created by the current user. , New Feature
+Create trello service and add angular-trello-api-client , New Feature
+Ignore .idea files , Unknown
+Latest Index , Unknown
+Added line to google user creation , Fixed
+Removed logs and bindings , Unknown
+Merge pull request #53 from Nearsoft/dont-send-email-option , Unknown
+Made auto email on adding candidate not the default and added auto-email opt in checkbox , New Feature
+sending mails , Unknown
+Merge pull request #52 from Nearsoft/generate-new-password , Unknown
+Allow passwords to be reassigned from candidate details view , New Feature
+Added generated to add Candidate modal instead of success prompt. , New Feature
+User profile won't be prompted until Hired or offer accepted , Refactor
+Merge pull request #51 from Nearsoft/google-log-in , New Feature
+Added admin login view. , New Feature
+Merge pull request #50 from Nearsoft/google-log-in , Unknown
+Added validation of @nearsoft domain with google oauth , New Feature
+Local Merge , Unknown
+Merge pull request #49 from Nearsoft/interviewers-view-imp , Unknown
+Add Candidate button doesn't show for interviewers. , Fixed
+Resolving conflicts. Pagination should be done as the last step in the query. , Fixed
+Interviewer Home view in working order. , Fixed
+Watering from master , Unknown
+Merge pull request #48 from Nearsoft/changing_candidate_recruiter , Unknown
+RecruiterSerializer takes care of providing Recruiters and Contacted By information , New Feature
+Merge branch 'usertest-null-date-bug' into changing_candidate_recruiter , Unknown
+Removed mysql volume binding , Refactor
+corrected issues on interviewer candidates assigned , Fixed
+Mocked front end for change recruiter request , New Feature
+Score needed not to be NULL as well , Fixed
+Fixed bug where new user_tests where created with NULL dates and start / endtimes and added migration to correct records on prod. , Fixed
+Added new 'current_recruiter' column to users table , New Feature
+Added candidatse_pending_feedback endpoint for the interviewer home page , New Feature
+Watering from master , Unknown
+Adding interviewer view.. in progress , New Feature
+Disabled UserMails and fixed error message that showed up when it shouldn't. , Fixed
+Merge pull request #46 from Nearsoft/candidate-filter-bugfix , Unknown
+Now fitering works as expected. , Fixed
+Merge branch 'Add-tabs-for-candidate-pages' of https://github.com/nearsoft/pipeline into candidate-filter-bugfix , Unknown
+Get Candidates query manages filter text , New Feature
+Added paging functionality but there is a missing restriction for next button will work on that as soon as request from server is updated. , New Feature
+Refactored requestservice.js , Refactor
+Fixed authentication errors when submitting logic test. Redirecting candidates to logic-test view from user-profile and recruiters back to home. , Fixed
+UserMailer LT results bug fixed , Fixed
+User mails going through. Removed Google sign in temporarily. , Fixed
+First deploy. , Unknown
+Merge index... , Unknown
+Fixed login bug , Unknown
+deployment scripts , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+deployement scripts , New Feature
+Database is up to date with production. , Unknown
+Merge pull request #45 from Nearsoft/googleLogIn , Unknown
+Centered button , Refactor
+Merge pull request #44 from Nearsoft/interview-schedule-bug , Unknown
+Added date restrictions through DatePicker directive , Fixed
+Added Satellizer to front end and OAuth handling to back end. This is shoddy work need revisions. , New Feature
+Simpler docker setup , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline into interview-schedule-bug , Unknown
+Merge pull request #43 from Nearsoft/DockerOneLiner , Unknown
+Simplified compose up commands , Refactor
+Merge pull request #42 from Nearsoft/migrationQueryBugFixes , Unknown
+Not allowing interviews to be scheduled to past dates anymore , Fixed
+Fixed erros in the migration Query/ , Fixed
+Merge pull request #40 from Nearsoft/DockerOneLiner , Unknown
+Changed CandidateRoles to CandidateRole to match model. , Unknown
+Merge pull request #39 from Nearsoft/DockerOneLiner , Unknown
+Simplifications of DB seeding process. yay. , Refactor
+Google Auth backend handling , New Feature
+Merge pull request #38 from Nearsoft/skillHandler , Unknown
+Fixed bugs , Fixed
+Changed in skil handling , Fixed
+Handling skills as objects with id and descriptions as objects when adding new candidates. , Refactor
+Merge pull request #37 from Nearsoft/AuthenticationToken , Unknown
+Added verification that payload was not tampered with. , New Feature
+Merge pull request #36 from Nearsoft/AuthenticationToken , Unknown
+Watering from master , Unknown
+Removed binding.pry and console.logs , Unknown
+Sending token in get requests. Fixed bug that caused you to lose your credentials before the session expired. , Fixed
+Disabled some roles with MigQuery and seeded new QA role. , Fixed
+Assigned logic test shows up properly for candidateitems Added success and greeting modal view templates. , Fixed
+Added JWT to authentication process , New Feature
+Merge pull request #35 from Nearsoft/nearsoftProfile , Unknown
+Candidate Details links to their linkedin and NS-Profile , New Feature
+Merge pull request #34 from Nearsoft/InterviewFeedbackPresentation , Unknown
+Removing buncha logs , Unknown
+Managing pending tests on candidate view , New Feature
+Interview Feedback details can be accessed from candidate view now , New Feature
+Type :) , Unknown
+Displaying results on candidate info view , Unknown
+Candidate Results Serializer , New Feature
+Updatinginterview feedback with new model works fine now. , Fixed
+InterviewFeedbackSerializer , New Feature
+Create Interview working fine now , Fixed
+Refactoring InterviewFeedback + Interviews , Refactor
+Removed unnecessary fields from interview_feedback model , Refactor
+Add new fields to interviews , Unknown
+SQL syntax error , Fixed
+Users with pending or assigned logic tests are redirected to fill out their user-profile. , New Feature
+Updating user_profile , New Feature
+GET candidate_profile , New Feature
+Beautify user-profile view , New Feature
+Modified migration Query to take into account user_profile initializations. , New Feature
+Additions to user_profile migration , New Feature
+Correcting syntax errors , New Feature
+Mocked controller for user profile , New Feature
+User Profile Form boilerplate HTML , New Feature
+Scaffolded views and controller for user-profile on Frontend , New Feature
+User_profile_controller methods for show update and whitelisting , New Feature
+Model and controller for user_profile , New Feature
+Created user profile migration , New Feature
+Merge pull request #33 from Nearsoft/InterviewRetry , Unknown
+A candidate that has failed an interview can now have it reassigned by clicking on the FAILED X INTERVIEW button , New Feature
+New model for Interview associates interview feedback under one umbrella for every interview attempt. , New Feature
+Added Interview Session model added column int_session_id to interviews to segregate interview attempts , New Feature
+Fixed SQL syntax error , Fixed
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Merge pull request #32 from Nearsoft/InterviewPermissions , Unknown
+Interview Forms are only accessible to the Interviewer and to Admins. , New Feature
+Added change to migration Query so that candidates who have an assigned logic test will have the correct status , New Feature
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Fixed creating logic tests. , Fixed
+Merge pull request #31 from Nearsoft/comments_date_words , Unknown
+Merge pull request #30 from Nearsoft/enabled_search , Unknown
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Change the format view of the date time in comments. , Refactor
+Added credentials for test recruiter to README , Unknown
+Mysql db seeding is done through the standard docker directory for such a task. Added test recruitment user to seeds. U: recruiter P: ledesma , Refactor
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Add enabled field to candidate_sources. , New Feature
+Search for roles and sources now beign filtered with enabled categories. , New Feature
+Merge pull request #29 from Nearsoft/FireEmails , Unknown
+Interview creating and updating send relevant emails and are in working order. , Unknown
+Residue bindings. , Unknown
+Interview Mail being sent to interviewer and interviewee with their respective instructions. , Unknown
+Merge pull request #28 from Nearsoft/FireEmails , New Feature
+Merge pull request #27 from Nearsoft/candidate_sources_enabled , New Feature
+Merge pull request #26 from paulina-pacheco/patch-1 , New Feature
+Added notification with LT results of candidates for the recruitment team. , New Feature
+Sending Emails with LT results upon completion. , New Feature
+Add enabled field to candidate_source and update seed.rb to populate field. , New Feature
+Update README.md , Unknown
+Update .gitignore , Unknown
+Merge pull request #25 from Nearsoft/docker_rspec , Unknown
+Added rspec to dockerized version. Modified readme to include the command to run rspec tests. , New Feature
+Removed minitest , Refactor
+Merge pull request #24 from Nearsoft/DockerLogger , Unknown
+Logs are not displayed in STDOUT. , New Feature
+Email on user creation. , New Feature
+Firing emails on test competion/assignment and on interview assignment. , New Feature
+Removed a bunch of binding.pry , Unknown
+Added mailing logic for more type of emails. , New Feature
+fixed untracked files , Unknown
+Fixed issue wiht new Status IDs both in transforming old db data and displaying it in the front end. , Fixed
+Corrected README once again made Active Model Serializers version explicit changed Ruby 2.2.0 image for Ruby 2.2-slim image. , Unknown
+Added default container ports corrected Readme.md , New Feature
+Removing superflous files , Refactor
+Updated gruntfile and wiki to reflect new directory names. , Refactor
+Dockerized app runs as expected. Updated ReadME instructions still a long way to go to make installation and development as frictionless as we can. , New Feature
+1st attempt at dockerizing App , New Feature
+Added Dockerfile for pipeline-api , New Feature
+Refactor for Interview Interactors to comform to the StatusUpdateOrganizer flow , Refactor
+Changes to create test to fit into the StatusChangeOrganizer flow. , Refactor
+Added context setter interactor for StatusUpdateOrganizer flow. , Refactor
+Users status update flow refactored. Now flows through the StatusUpdateOrganizer , Refactor
+Added missing mail templates and logic. , New Feature
+Watering local , Unknown
+Merge pull request #23 from Nearsoft/migrationRefactor , Unknown
+Merge migration refactor , Unknown
+Added Status Changes model back in. Renamed id_user_ch to more descriptive actor column , Refactor
+Watering , Unknown
+Merge pull request #22 from Nearsoft/InteractorRefactor , Unknown
+Concluding merge. , Unknown
+Test Service calls updated user_test function. Symbolic constants now work properly. Added JSON for a 20/20 test to test/fixtures. , Fixed
+Added constants to candidate status model. Dropped user_test LT update interactor. , New Feature
+Removed Update interactors. Their logic is now in their respective controllers update function , Refactor
+Replaced magic numbers with references to symbolic constants , Refactor
+Added handling of Negotiate Terms interview , New Feature
+English Interview again displays Decision select form , New Feature
+Removed binding.prys that snuck in , Unknown
+Now actually deleting the file , Unknown
+Removed Update User Status interactor. Interviews link up to Negotiate Terms Pending , Refactor
+Interviews flow properly from one to the next. , Fixed
+Renamed column in interviews from cultura -> cultural , Refactor
+Merge pull request #21 from Nearsoft/interview-process , Unknown
+Refactor update_user status to be a model method instead of an interactor. , Refactor
+Interview_date is stored including hours and minutes now. , New Feature
+Ironing out kinks after refactoring , Refactor
+Removed status_changes model added new_status_calculator interactor. All proceeding status will be produced by this interactor. , Refactor
+Spacing , Refactor
+Cleaned up the code. Spacing and smelly ruby. , Refactor
+Refactoring controller syntax / spacing / etc... , Refactor
+Fixed bug where UpdateUserStatus was not being called on passsing interview. Fixed boolean comparison that was assigning a value , Fixed
+Fixed bug where update status was not being call after updating interview results. , Fixed
+Modified database schema. Removed superflous serializers files. Added migrationQuery for eventual development. , Refactor
+Hack and burn this rotten wood , Refactor
+Create Interview interactor updated to handle new interview_types , Refactor
+Front end changes to accommodate new interview types , Refactor
+Watering from master , Unknown
+Separated Scree/Profile and Pair/Task into individual interviews. Added automatic status changes once all interview results are in. , Refactor
+Interview form front. Update Interview Interactor changes. git add --all , Refactor
+Added front and back interview integration , New Feature
+database password , Unknown
+Merge pull request #20 from Nearsoft/comments , Unknown
+Order comments by descendent order , Fixed
+Update README.md , Unknown
+Interview mailer , New Feature
+Interview Model , New Feature
+Merge LT-missing files , Unknown
+Removed buncha useless files , Unknown
+Merge branch 'master' of https://github.com/Nearsoft/pipeline , Unknown
+Merge branch 'LT-missing-files' of https://github.com/Nearsoft/pipeline into LT-missing-files , Unknown
+Missing files sifted from frankweb/logic-test REPO and chnages to get them up and running , Unknown
+Commented out mailer it wasn't working properly , Unknown
+Merge old files with Hackathon(Interview form) changes , Unknown
+Making candidateList work , Fixed
+ALL The missing changes for recruitment-api , Unknown
+RC-2.0.0 latest version from github.com/frankweb/logic-test , Unknown
+baseline , Unknown
+Removing conflict marker from app/logic.css , Unknown
+Update README.md , Unknown
+Removed logic-test legacy code from repo , Refactor
+Changes to get app running after truncating history from logic-test , Unknown
+Results of hackathon dash. First steps at restructuring how Interview related information is stored in the database and allowing for reviewers to easily score candidates. , New Feature
+Update README.md , Unknown
+Update ROADMAP.MD , Unknown
+Create ROADMAP.MD , Unknown
+Used yeoman to create the new index design using BEM methodology , Unknown
+remove wiki property and candidates from candidate list scope , Unknown
+remove comment , Unknown
+integrated , Unknown
+get candidate information from backend , New Feature
+removed consoles , Unknown
+Integration test done some test fixed , Unknown
+assign interviews finished , New Feature
+added random password generator , New Feature
+Serializers for the candidate results , New Feature
+the recruiter can assign interviews , New Feature
+DateService and modal template to assign interviews , New Feature
+removed unnecessary libraries , Refactor
+Implemented with backend + grunt generated files , New Feature
+test , Unknown
+console.log removed , Unknown
+candidate results started along with other changes , Unknown
+Status change for final interview , New Feature
+recruiter can search candidates from any section , New Feature
+unit tests frontend fixed , New Feature
+fixed some security issues and undefined credentials , New Feature
+added role and source options from backend , New Feature
+conflicts generated after merge fixed , New Feature
+up-to-date , Unknown
+user_session interactor updated , New Feature
+User skills insert & tests , New Feature
+Integration test to be continued , New Feature
+Solved test issues , Fixed
+remove unnecessary line , Refactor
+remove force from Gruntfile , Refactor
+final comments , Unknown
+change active score card , Refactor
+status_change interactor modifies still working on the integration test , New Feature
+Integration test , New Feature
