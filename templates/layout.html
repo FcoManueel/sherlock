@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-    <title>Sherlock - Gain insight about your project by analyzing its history</title>
+    <title>Sherlock - {% block title %}{% endblock %}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,28 +16,12 @@
   <body>
   <div class="overlay valign-wrapper">
     <div class="container center-align text-white">
-
-      <h1>Sherlock</h1>
-      <h5>Gain insights from your code</h5>
-      <form class="row center-align" role="form" method="post" action="{{ url_for('AnalyzeRepo') }}">
-        <div class="input-field col s8 offset-s2">
-          <input id="repo_url" type="text" name="repoUrl">
-          <label for="repo_url" class="width-full">GitHub repo URL</label>
-          <input id="submit_url" type="submit" value="Analyze" class="btn">
-        </div>
-        <div class="col s2"></div>
-      </form>
+      <div id="content">
+        {% block content %}{% endblock %}
+      </div>
       </div>
     </div>
-{#        {% block body %}{% endblock %}#}
   </div>
   </body>
-  <script>
-    document.getElementById("repo_url").addEventListener("keyup", function(event) {
-      event.preventDefault();
-      if (event.keyCode == 13) {
-        document.getElementById("submit_url").click();
-      }
-    });
-  </script>
+  {% block scripts %}{% endblock %}
 </html>

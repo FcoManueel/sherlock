@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}Analysis Results for {{ repo_url }} {% endblock %}
+{% block content %}
+  <h1>Sherlock</h1>
+      <h5>These are my findings!</h5>
+      <ul class="findings">
+        {% for file, categories in analysis.commit_categories.iteritems() %}
+          {% if categories|sum - categories[0] %}
+          <li> <h2> FILE:{{ file }} </h2>
+          <ul>
+            Out of a total of {{ categories|sum }} commits I identified:
+            {% if categories[3] %}
+              <li>{{ categories[3] }} Bugfixes</li>
+            {% endif %}
+            {% if categories[2] %}
+              <li>{{ categories[2] }} Refactors</li>
+            {% endif %}
+            {% if categories[1] %}
+              <li>{{ categories[1] }} Feature</li>
+          {% endif %}
+          </ul>
+          {% endif %}
+        {% endfor %}
+      </ul>
+{% endblock %}
+{% block scripts %}{% endblock %}
